@@ -36,11 +36,11 @@ hero:
 
   ctaButton:
     icon: rocket_launch
-    btnText: "Get Started"
+    btnText: "Register now"
     url: "/docs/quickstart/#create-a-new-lotus-docs-site"
   cta2Button:
-    icon: construction
-    btnText: "In Development"
+    icon: book
+    btnText: "Class Syllabus"
     url: "https://github.com/colinwilson/lotusdocs"
 
   info: "**Open Source** MIT Licensed."
