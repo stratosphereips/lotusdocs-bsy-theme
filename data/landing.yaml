@@ -18,11 +18,11 @@ hero:
   #   pill: false # boolean
   #   soft: true # boolean
 
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo.png"
+    alt: "Lotus Docs Logo"
+    height: 80px
 
   title: "Introduction to Cyberecurity"
   subtitle: Intense, **hands-on** course on cybersecurity which covers basic security principles. You will try **attacks** in a isolated cyber-range and learn how can we detect and stop the intruders.
@@ -50,50 +50,40 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: Why choose Lotus Docs?
-  subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+  title: What does the class offer?
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
   items:
-    - title: Fast
+    - title: Intense
       icon: speed
-      description: 4 x 100's score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: SEO Friendly
+    - title: From Zero to Hero
       icon: trending_up
-      description: Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: Secure by default
-      icon: lock
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+    - title: Certificate of Completion
+      icon: workspace_premium
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: Optional Features
-      icon: settings
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
+    - title: Red Teaming
+      icon: destruction
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: Deploy to Vercel
-      icon: change_history
-      description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
+    - title: Blue Teaming
+      icon: security
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: Dark Mode
-      icon: dark_mode
-      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
-
-    - title: Search by DocSearch
-      icon: search
-      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
-
-    - title: Multilingual Support
+    - title: International Team
       icon: translate
-      description: Lotus Docs supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    - title: Bootstrap v5
-      icon: palette
-      description: Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
-# Feature Grid
+
+# peopleGrid
 peopleGrid:
   enable: true
   weight: 25
-  template: feature grid
+  template: people grid
 
   title: Teaching team
   subtitle: Something about the team
@@ -102,86 +92,124 @@ peopleGrid:
     - title: Sebastian Garcia
       icon: speed
       description: "Assistant Professor, Founder, and Director of the Stratosphere Laboratory in the AI Center, Faculty of Electrical Engineering, Czech Technical University in Prague"
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "sebastian_garcia.jpg"
+    
+    - title: Maria Rigaki
+      icon: lock
+      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "maria_rigaki.jpg"
+        
+    - title: Ondřej Lukáš
+      icon: settings
+      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "ondrej_lukas.jpg"
 
     - title: Veronica Valeros
       icon: trending_up
       description: "Researcher, Czech Technical University in Prague"
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "veronica_valeros.jpg"
 
-    - title: Maria Rigaki
-      icon: lock
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
-
-    - title: Ondrej Lukas
-      icon: settings
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
-
-    - title: Lukas Forst
+    - title: Lukáš Forst
       icon: change_history
       description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "lukas_forst.jpeg"
 
-    - title: Martin Repa
+    - title: Martin Řepa
       icon: dark_mode
       description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "martin_repa.jpeg"
 
     - title: Muris Sladic
       icon: search
       description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
 
 # Image compare
-# imageCompare:
-#   enable: true
-#   weight: 30
-#   template: image compare
+imageCompare:
+  enable: true
+  weight: 30
+  template: image compare
 
-#   title: Customise The Lotus Docs Appearance
-#   subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+  title: Customise The Lotus Docs Appearance
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
 
-#   items:
-#     - title: Dark Mode
-#       config: {
-#         startingPoint: 50,
-#         addCircle: true,
-#         addCircleBlur: false,
-#         showLabels: true,
-#         labelOptions: {
-#           before: 'Dark',
-#           after: 'Light',
-#           onHover: false
-#         }
-#       }
-#       imagePath: "images/screenshots"
-#       imageBefore: "lotusdocs_dark_v0.8.webp"
-#       imageAfter: "lotusdocs_light_v0.8.webp"
-
-#     - title: Custom Fonts
-#       config: {
-#         controlColor: "#3C4257",
-#         startingPoint: 25,
-#         addCircle: true,
-#         addCircleBlur: false,
-#         showLabels: true,
-#         labelOptions: {
-#           before: 'Inter',
-#           after: 'Life Saver',
-#           onHover: false
-#         }
-#       }
-#       imagePath: "images/screenshots"
-#       imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
-#       imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
-
-#     - title: Accent Color
+  items:
+    - title: Dark Mode
       config: {
-        startingPoint: 25,
+        startingPoint: 50,
         addCircle: true,
-        addCircleBlur: true,
+        addCircleBlur: false,
         showLabels: true,
         labelOptions: {
-          before: 'Blue',
-          after: 'Cardinal',
+          before: 'Dark',
+          after: 'Light',
           onHover: false
         }
       }
       imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_blue_theme_colour.webp"
-      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    # - title: Custom Fonts
+    #   config: {
+    #     controlColor: "#3C4257",
+    #     startingPoint: 25,
+    #     addCircle: true,
+    #     addCircleBlur: false,
+    #     showLabels: true,
+    #     labelOptions: {
+    #       before: 'Inter',
+    #       after: 'Life Saver',
+    #       onHover: false
+    #     }
+    #   }
+    #   imagePath: "images/screenshots"
+    #   imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+    #   imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    # - title: Accent Color
+    #   config: {
+    #     startingPoint: 25,
+    #     addCircle: true,
+    #     addCircleBlur: true,
+    #     showLabels: true,
+    #     labelOptions: {
+    #       before: 'Blue',
+    #       after: 'Cardinal',
+    #       onHover: false
+    #     }
+    #   }
+    #   imagePath: "images/screenshots"
+    #   imageBefore: "lotusdocs_blue_theme_colour.webp"
+    #   imageAfter: "lotusdocs_cardinal_theme_colour.webp"
+    #   config: {
+    #     startingPoint: 25,
+    #     addCircle: true,
+    #     addCircleBlur: true,
+    #     showLabels: true,
+    #     labelOptions: {
+    #       before: 'Blue',
+    #       after: 'Cardinal',
+    #       onHover: false
+    #     }
+    #   }
+    #   imagePath: "images/screenshots"
+    #   imageBefore: "lotusdocs_blue_theme_colour.webp"
+    #   imageAfter: "lotusdocs_cardinal_theme_colour.webp"
