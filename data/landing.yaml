@@ -25,11 +25,10 @@ hero:
   #   height: 80px
 
   title: "Introduction to Cyberecurity"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
-
+  subtitle: Intense, **hands-on** course on cybersecurity which covers basic security principles. You will try **attacks** in a isolated cyber-range and learn how can we detect and stop the intruders.
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    filename: "illustration_class.png" # filename of your hero image (including file extension)
     alt: "Lotus Docs Screenshot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
