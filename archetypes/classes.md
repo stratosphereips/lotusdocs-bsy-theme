@@ -1,7 +1,7 @@
 ---
 weight: 999
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
+description: "TLDR Add description"
 icon: "article"
 date: "{{ .Date }}"
 lastmod: "{{ .Date }}"
