@@ -89,6 +89,43 @@ featureGrid:
     - title: Bootstrap v5
       icon: palette
       description: Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
+# Feature Grid
+peopleGrid:
+  enable: true
+  weight: 25
+  template: feature grid
+
+  title: Teaching team
+  subtitle: Something about the team
+
+  items:
+    - title: Sebastian Garcia
+      icon: speed
+      description: "Assistant Professor, Founder, and Director of the Stratosphere Laboratory in the AI Center, Faculty of Electrical Engineering, Czech Technical University in Prague"
+
+    - title: Veronica Valeros
+      icon: trending_up
+      description: "Researcher, Czech Technical University in Prague"
+
+    - title: Maria Rigaki
+      icon: lock
+      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+
+    - title: Ondrej Lukas
+      icon: settings
+      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
+
+    - title: Lukas Forst
+      icon: change_history
+      description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
+
+    - title: Martin Repa
+      icon: dark_mode
+      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
+
+    - title: Muris Sladic
+      icon: search
+      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
 
 # Image compare
 # imageCompare:
