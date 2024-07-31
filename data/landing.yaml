@@ -54,7 +54,7 @@ featureGrid:
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
   items:
-    - title: Intense
+    - title: Intense & Hands on
       icon: speed
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
@@ -90,7 +90,6 @@ peopleGrid:
 
   items:
     - title: Sebastian Garcia
-      icon: speed
       description: "Assistant Professor, Founder, and Director of the Stratosphere Laboratory in the AI Center, Faculty of Electrical Engineering, Czech Technical University in Prague"
       email: test@test.test
       image:
@@ -98,7 +97,6 @@ peopleGrid:
         filename: "sebastian_garcia.jpg"
     
     - title: Maria Rigaki
-      icon: lock
       description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
       email: test@test.test
       image:
@@ -106,7 +104,6 @@ peopleGrid:
         filename: "maria_rigaki.jpg"
         
     - title: Ondřej Lukáš
-      icon: settings
       description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
       email: test@test.test
       image:
@@ -114,7 +111,6 @@ peopleGrid:
         filename: "ondrej_lukas.jpg"
 
     - title: Veronica Valeros
-      icon: trending_up
       description: "Researcher, Czech Technical University in Prague"
       email: test@test.test
       image:
@@ -122,7 +118,6 @@ peopleGrid:
         filename: "veronica_valeros.jpg"
 
     - title: Lukáš Forst
-      icon: change_history
       description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
       email: test@test.test
       image:
@@ -130,7 +125,6 @@ peopleGrid:
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      icon: dark_mode
       description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
       email: test@test.test
       image:
@@ -141,31 +135,31 @@ peopleGrid:
       icon: search
       description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
 
-# Image compare
-imageCompare:
-  enable: true
-  weight: 30
-  template: image compare
+# # Image compare
+# imageCompare:
+#   enable: true
+#   weight: 30
+#   template: image compare
 
-  title: Customise The Lotus Docs Appearance
-  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+#   title: Customise The Lotus Docs Appearance
+#   subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
 
-  items:
-    - title: Dark Mode
-      config: {
-        startingPoint: 50,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Dark',
-          after: 'Light',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_dark_v0.8.webp"
-      imageAfter: "lotusdocs_light_v0.8.webp"
+#   items:
+#     - title: Dark Mode
+#       config: {
+#         startingPoint: 50,
+#         addCircle: true,
+#         addCircleBlur: false,
+#         showLabels: true,
+#         labelOptions: {
+#           before: 'Dark',
+#           after: 'Light',
+#           onHover: false
+#         }
+#       }
+#       imagePath: "images/screenshots"
+#       imageBefore: "lotusdocs_dark_v0.8.webp"
+#       imageAfter: "lotusdocs_light_v0.8.webp"
 
     # - title: Custom Fonts
     #   config: {
