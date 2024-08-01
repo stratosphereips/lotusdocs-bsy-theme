@@ -74,8 +74,8 @@ featureGrid:
       description: The course is designed to have one class about attacking and one class about defending. This gives you real-world experience on how attacks work, how to make them happen, and how hard and fun is to exploit a remote computer.
 
     - title: Blue Teaming
-      icon: shield
-      description: In the defensive classes, you will learn the most difficult job in security: how to defend. From hardening a server to network forensics until you deploy your own machine learning detection models. 
+      icon: security
+      description: "In the defensive classes, you will learn the most difficult job in security: how to defend. From hardening a server to network forensics until you deploy your own machine learning detection models."
  
     - title: International Team
       icon: translate
