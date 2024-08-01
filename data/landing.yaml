@@ -40,7 +40,7 @@ hero:
   cta2Button:
     icon: book
     btnText: "Class Syllabus"
-    url: "/docs/syllabus.md"
+    url: "docs/syllabus/"
 
   info: "**Open Source** MIT Licensed."
 
