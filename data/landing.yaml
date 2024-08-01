@@ -18,13 +18,13 @@ hero:
   #   pill: false # boolean
   #   soft: true # boolean
 
-  titleLogo:
-    path: "images/logos"
-    filename: "title_logo.png"
-    alt: "Lotus Docs Logo"
-    height: 80px
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
 
-  title: "Introduction to Cyberecurity"
+  title: "Introduction to Cyberesecurity"
   subtitle: Intense, **hands-on** course on cybersecurity which covers basic security principles. You will try **attacks** in a isolated cyber-range and learn how can we detect and stop the intruders.
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -40,7 +40,7 @@ hero:
   cta2Button:
     icon: book
     btnText: "Class Syllabus"
-    url: "https://github.com/colinwilson/lotusdocs"
+    url: "/docs/syllabus.md"
 
   info: "**Open Source** MIT Licensed."
 
