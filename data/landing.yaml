@@ -42,7 +42,7 @@ hero:
     btnText: "Class Syllabus"
     url: "docs/syllabus/"
 
-  info: "Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHARE ALIKE 4.0 INTERNATIONAL" 
+  #info: "Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHARE ALIKE 4.0 INTERNATIONAL" 
 
 # Feature Grid
 featureGrid:
