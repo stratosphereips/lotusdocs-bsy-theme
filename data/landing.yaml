@@ -28,7 +28,7 @@ hero:
   subtitle: "**Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "illustration_class.png" # filename of your hero image (including file extension)
+    filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
     alt: "Class ilustration" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
