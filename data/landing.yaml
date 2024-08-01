@@ -24,8 +24,8 @@ hero:
   #   alt: "Lotus Docs Logo"
   #   height: 80px
 
-  title: "Introduction to Cyberesecurity"
-  subtitle: Intense, **hands-on** course on cybersecurity which covers basic security principles. You will try **attacks** in a isolated cyber-range and learn how can we detect and stop the intruders.
+  title: "Introduction to Cybersecurity Course"
+  subtitle: **Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders.
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class.png" # filename of your hero image (including file extension)
@@ -42,7 +42,7 @@ hero:
     btnText: "Class Syllabus"
     url: "docs/syllabus/"
 
-  info: "**Open Source** MIT Licensed."
+  info: "Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHARE ALIKE 4.0 INTERNATIONAL" 
 
 # Feature Grid
 featureGrid:
@@ -51,32 +51,32 @@ featureGrid:
   template: feature grid
 
   title: What does the class offer?
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  subtitle: This is a very practical course to learn how to do basic pentesting and basic defenses of systems. It is a one-semester course, free, online, and open to anyone in the world, teaching how to perform attacks and defenses in computer systems. 
+
 
   items:
-    - title: Intense & Hands on
+    - title: Intense & Hands-on
       icon: speed
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      description: The course is fast-paced and very practical. Every topic shown in the course is practiced and done by you. Each concept we teach needs to be tried to be completely understood. Much better learning happens when you can do, by yourself, every part of the course. The course goes through an intense pace of topics, examples, exercises and challenges.
+ 
 
     - title: From Zero to Hero
       icon: trending_up
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      description: The class is designed to be taken by anyone with a basic background in computers and command lines. You don’t need previous knowledge or experience in security. We will teach from the basics of networking to security and all the necessary steps until you can do a basic pentesting for any organization or work in the defensive group of a company. In the span of a semester, you will learn all the basics, exploit vulnerabilities, attack web pages, defend with machine learning, and more!
+
 
     - title: Certificate of Completion
       icon: workspace_premium
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      description: If you successfully complete the course, the Stratosphere Laboratory will give you a certificate of completion. This is not an official Czech Technical University certificate (that is still under approval) but it will guarantee you successfully complete the course.
 
-    - title: Red Teaming
+
+    - title: Red Teaming and Blue Teaming
       icon: destruction
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    - title: Blue Teaming
-      icon: security
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
+      description: The course is designed to have one class about attacking and one class about defending. This gives you real-world experience on how attacks work, how to make them happen, and later how to defend against them. This dynamic is very similar to the work of Red teams and Blue teams, most recently also known as Purple teams, since there is collaborative communication.
+ 
     - title: International Team
       icon: translate
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      description: The teachers of the course come from different countries and backgrounds, giving us a very diverse point of view and understanding. From Latin America to Europe, we cover several cultures and idiosyncrasies. 
 
 
 # peopleGrid
@@ -91,7 +91,7 @@ peopleGrid:
   items:
     - title: Sebastian Garcia
       description: "Assistant Professor, Founder, and Director of the Stratosphere Laboratory in the AI Center, Faculty of Electrical Engineering, Czech Technical University in Prague"
-      email: test@test.test
+      email: sebastian.garcia@agents.fel.cvut.cz
       image:
         path: "images/people"
         filename: "sebastian_garcia.jpg"
