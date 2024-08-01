@@ -69,10 +69,13 @@ featureGrid:
       icon: workspace_premium
       description: If you successfully complete the course, the Stratosphere Laboratory will give you a certificate of completion. This is not an official Czech Technical University certificate (that is still under approval) but it will guarantee you successfully complete the course.
 
-
-    - title: Red Teaming and Blue Teaming
+    - title: Red Teaming
       icon: destruction
-      description: The course is designed to have one class about attacking and one class about defending. This gives you real-world experience on how attacks work, how to make them happen, and later how to defend against them. This dynamic is very similar to the work of Red teams and Blue teams, most recently also known as Purple teams, since there is collaborative communication.
+      description: The course is designed to have one class about attacking and one class about defending. This gives you real-world experience on how attacks work, how to make them happen, and how hard and fun is to exploit a remote computer.
+
+    - title: Blue Teaming
+      icon: shield
+      description: In the defensive classes, you will learn the most difficult job in security: how to defend. From hardening a server to network forensics until you deploy your own machine learning detection models. 
  
     - title: International Team
       icon: translate
