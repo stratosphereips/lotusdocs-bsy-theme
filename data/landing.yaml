@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Introduction to Cybersecurity Course"
-  subtitle: "**Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. <br><br> The BSY Course from Czech Technical University in Prague."
+  subtitle: "**Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -33,6 +33,8 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
+  info: "The BSY Course from [**Czech Technical University in Prague**](https://fel.cvut.cz/en)." 
+  
   ctaButton:
     icon: rocket_launch
     btnText: "Register now"
@@ -42,7 +44,6 @@ hero:
     btnText: "About the Course"
     url: "docs/about/"
 
-  #info: "Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHARE ALIKE 4.0 INTERNATIONAL" 
 
 # Feature Grid
 featureGrid:
