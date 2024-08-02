@@ -137,6 +137,10 @@ peopleGrid:
     - title: Muris Sladic
       icon: search
       description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
+      email: test@test.test
+      image:
+        path: "images/people"
+        filename: "muris_sladic.jpg"
 
 # # Image compare
 # imageCompare:
