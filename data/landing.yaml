@@ -128,6 +128,11 @@ peopleGrid:
     - title: Veronica Valeros
       description: Veronica is a cybersecurity researcher born in Patagonia, Argentina. She is passionate about cybercrime, honeypots, intelligence analysis, and helping teams to be more efficient. She currently works at the Stratosphere Laboratory, AI Center, Czech Technical University in Prague, leading the efforts to design, implement, and create high-quality cybersecurity datasets that help advance the understanding and creation of new defense mechanisms, improving the global cybersecurity field. She is currently pursuing a master's degree in Intelligence and Security Studies from Liverpool John Moores University.
       email: test@test.test
+      contacts:
+        - email: 
+        - github: 
+        - webpage: 
+        - twitter: 
       image:
         path: "images/people"
         filename: "veronica_valeros.jpg"
@@ -145,7 +150,11 @@ peopleGrid:
 
     - title: Martin Řepa
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      email: test@test.test
+      contacts:
+        - email: 
+        - github: 
+        - webpage: 
+        - twitter: 
       image:
         path: "images/people"
         filename: "martin_repa.jpeg"
@@ -153,7 +162,11 @@ peopleGrid:
     - title: Muris Sladic
       icon: search
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      email: test@test.test
+      contacts:
+        - email: 
+        - github: 
+        - webpage: 
+        - twitter: 
       image:
         path: "images/people"
         filename: "muris_sladic.jpg"
