@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Introduction to Cybersecurity Course"
-  subtitle: "**Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
+  subtitle: "**Free**, online, intense, and **hands-on** course on cybersecurity, from basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. <br><br> The BSY Course from Czech Technical University in Prague."
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -39,8 +39,8 @@ hero:
     url: "/docs/quickstart/#create-a-new-lotus-docs-site"
   cta2Button:
     icon: book
-    btnText: "Class Syllabus"
-    url: "docs/syllabus/"
+    btnText: "About the Course"
+    url: "docs/about/"
 
   #info: "Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHARE ALIKE 4.0 INTERNATIONAL" 
 
@@ -88,7 +88,7 @@ peopleGrid:
   template: people grid
 
   title: Teaching team
-  subtitle: Something about the team
+  subtitle: These are the teachers of the course.
 
   items:
     - title: Sebastian Garcia
