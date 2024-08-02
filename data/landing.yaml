@@ -92,42 +92,42 @@ peopleGrid:
 
   items:
     - title: Sebastian Garcia
-      description: "Assistant Professor, Founder, and Director of the Stratosphere Laboratory in the AI Center, Faculty of Electrical Engineering, Czech Technical University in Prague"
+      description: Sebastian is an Assistant Professor and security researcher specializing in applied machine learning for network traffic and malware detection. He founded the Stratosphere Laboratory at the Czech Technical University, focusing on impactful security research. Committed to digital rights, he advocates for free software and ML tools. His expertise includes malware detection, IDS/IPS, social network security, and more. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
       email: sebastian.garcia@agents.fel.cvut.cz
       image:
         path: "images/people"
         filename: "sebastian_garcia.jpg"
     
     - title: Maria Rigaki
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
-      email: test@test.test
+      description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. In her spare time she enjoys hacking, playing music, and chess.
+      email: mariarigaki.github.io
       image:
         path: "images/people"
         filename: "maria_rigaki.jpg"
         
     - title: Ondřej Lukáš
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
-      email: test@test.test
+      description: Ondra is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
+      email: ondrej.lukas@aic.fel.cvut.cz
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
 
     - title: Veronica Valeros
-      description: "Researcher, Czech Technical University in Prague"
+      description: Veronica is a cybersecurity researcher born in Patagonia, Argentina. She is passionate about cybercrime, honeypots, intelligence analysis, and helping teams to be more efficient. She currently works at the Stratosphere Laboratory, AI Center, Czech Technical University in Prague, leading the efforts to design, implement, and create high-quality cybersecurity datasets that help advance the understanding and creation of new defense mechanisms, improving the global cybersecurity field. She is currently pursuing a master's degree in Intelligence and Security Studies from Liverpool John Moores University.
       email: test@test.test
       image:
         path: "images/people"
         filename: "veronica_valeros.jpg"
 
     - title: Lukáš Forst
-      description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
-      email: test@test.test
+      description: Lukas is a solutions architect and cyber security enthusiast with extensive engineering experience at companies like Blindspot, Wire, CDN77, and Better Stack. In 2020, he co-founded Mild Blue, developing AI-powered software for hospitals. Since 2022, Lukas has been a teaching assistant at CTU. In 2024, he and Martin co-founded cyber defense company Recon Wave with the mission to enhance how companies manage their attack surface.
+      email: lukas@forst.dev
       image:
         path: "images/people"
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       email: test@test.test
       image:
         path: "images/people"
@@ -135,7 +135,7 @@ peopleGrid:
 
     - title: Muris Sladic
       icon: search
-      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       email: test@test.test
       image:
         path: "images/people"
