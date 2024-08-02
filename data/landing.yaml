@@ -88,26 +88,39 @@ peopleGrid:
   template: people grid
 
   title: Teaching team
-  subtitle: These are the teachers of the course.
+  subtitle: The course has a diverse teaching team with extensive experience in various fields of security. You will be guided by both researchers and practitioners in the field.
 
-  items:
+  people:
     - title: Sebastian Garcia
       description: Sebastian is an Assistant Professor and security researcher specializing in applied machine learning for network traffic and malware detection. He founded the Stratosphere Laboratory at the Czech Technical University, focusing on impactful security research. Committed to digital rights, he advocates for free software and ML tools. His expertise includes malware detection, IDS/IPS, social network security, and more. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
-      email: sebastian.garcia@agents.fel.cvut.cz
+      contacts:
+        - email: sebastian.garcia@agents.fel.cvut.cz
+        - github: eldraco
+        - webpage: https://stratosphereips.org 
+        - twitter: 
+        - scholar:
       image:
         path: "images/people"
         filename: "sebastian_garcia.jpg"
     
     - title: Maria Rigaki
       description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. In her spare time she enjoys hacking, playing music, and chess.
-      email: mariarigaki.github.io
+      contacts:
+        - email: rigamar@fel.cvut.cz
+        - github: mariarigaki
+        - webpage: https://mariarigaki.github.io/
+        - twitter: 
       image:
         path: "images/people"
         filename: "maria_rigaki.jpg"
         
     - title: Ondřej Lukáš
       description: Ondra is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
-      email: ondrej.lukas@aic.fel.cvut.cz
+      contacts:
+        - email: ondrej.lukas@aic.fel.cvut.cz
+        - github: ondrej-lukas
+        - webpage: 
+        - twitter: ondre.lukas
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
@@ -121,7 +134,11 @@ peopleGrid:
 
     - title: Lukáš Forst
       description: Lukas is a solutions architect and cyber security enthusiast with extensive engineering experience at companies like Blindspot, Wire, CDN77, and Better Stack. In 2020, he co-founded Mild Blue, developing AI-powered software for hospitals. Since 2022, Lukas has been a teaching assistant at CTU. In 2024, he and Martin co-founded cyber defense company Recon Wave with the mission to enhance how companies manage their attack surface.
-      email: lukas@forst.dev
+      contacts:
+        - email: lukas@forst.dev
+        - github: LukasForst
+        - webpage: https://reconwave.com/
+        - twitter: 
       image:
         path: "images/people"
         filename: "lukas_forst.jpeg"
