@@ -115,7 +115,7 @@ peopleGrid:
         filename: "maria_rigaki.jpg"
         
     - title: Ondřej Lukáš
-      description: Ondra is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
+      description: Ondřej is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
       contacts:
         - email: ondrej.lukas@aic.fel.cvut.cz
         - github: ondrej-lukas
@@ -149,7 +149,8 @@ peopleGrid:
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      description: Alumni of the class, software and security engineer. Love the never ending process of securing and exploiting. Think outside the box and let’s hack the simulation.
+
       contacts:
         - email: 
         - github: 
