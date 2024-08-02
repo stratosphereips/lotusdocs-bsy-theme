@@ -62,8 +62,7 @@ featureGrid:
 
     - title: From Zero to Hero
       icon: trending_up
-      description: The class is designed to be taken by anyone with a basic background in computers and command lines. You don’t need previous knowledge or experience in security. We will teach from the basics of networking to security and all the necessary steps until you can do a basic pentesting for any organization or work in the defensive group of a company. In the span of a semester, you will learn all the basics, exploit vulnerabilities, attack web pages, defend with machine learning, and more!
-
+      description: The class is open to anyone with basic computer and command line knowledge. No prior security experience is needed. You will learn networking, security fundamentals, pentesting, and defensive strategies. In one semester, you will exploit vulnerabilities, attack web pages, and use machine learning for defense.
 
     - title: Certificate of Completion
       icon: workspace_premium
