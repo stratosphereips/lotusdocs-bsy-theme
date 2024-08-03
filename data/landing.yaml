@@ -150,10 +150,10 @@ peopleGrid:
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      description: Alumni of the class, software and security engineer. Love the never ending process of securing and exploiting. Think outside the box and let’s hack the simulation.
+      description: Martin is an ethical hacker and alumni of the class. He has extensive experience as both a software and security engineer. Notably, Martin secured third place in a National Cybersecurity competition and has identified several critical vulnerabilities in public bug bounty programs. In 2024, Martin co-founded a cyber security company called Recon Wave. In his free time, Martin likes to do bouldering and play chess.
       contacts:
-        - email: 
-        - github: 
+        - email: repamart@fel.cvut.cz
+        - github: HappyStoic 
         - webpage: 
         - twitter: 
       image:
@@ -161,11 +161,10 @@ peopleGrid:
         filename: "martin_repa.jpeg"
 
     - title: Muris Sladic
-      icon: search
-      description: Muris is a PhD student at Czech Technical Universitz in Prague and alumni of the class. His work include applications of Large Language Models in deceptive techniques and their impact on security. He is the author of SheLLM, an LLM-based, high-interaction honeypot.
+      description: Muris is a PhD student from Bosnia and Herzegovina. He is a member of the Stratosphere research lab at ČVUT and alumni of the class. His research is focused mostly on cyber deception and defense and the impact of generative AI on cybersecurity. He is the author of shelLM, an LLM-based, high-interaction honeypot. Besides cybersecurity, he likes to play and listen to music, read, write, and play puzzle games.
       contacts:
         - email: sladimur@fel.cvut.cz
-        - github: 
+        - github: msladic1
         - webpage: 
         - twitter: 
       image:
