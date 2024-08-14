@@ -37,8 +37,8 @@ hero:
   
   ctaButton:
     icon: rocket_launch
-    btnText: "Register now"
     url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    btnText: "Register Today"
   cta2Button:
     icon: book
     btnText: "About the Course"
