@@ -33,7 +33,7 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  info: "This course is part of the [**Open Informatics Master**](https://oi.fel.cvut.cz/en/master-program) in CyberSecurity, taught at the [**Czech Technical University in Prague**](https://fel.cvut.cz/en)." 
+  info: "This course is part of the [**Open Informatics Master**](https://oi.fel.cvut.cz/en/master-program), taught at the [**Czech Technical University in Prague**](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [**Czech Technical University in Prague**](https://fel.cvut.cz/en)."
   
   ctaButton:
     icon: rocket_launch
