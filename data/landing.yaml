@@ -78,7 +78,7 @@ featureGrid:
 
     - title: Blue Teaming
       icon: security
-      description: "In the defensive classes, you will learn the most difficult job in security: how to defend. From hardening a server to network forensics until you deploy your own machine learning detection models."
+      description: "Defense-focused classes will give you real-world experience on one of the most difficult jobs in cybersecurity: how to defend. From system hardening and network forensics to using Machine Learning detection models to detect malware."
  
     - title: International Team
       icon: translate
