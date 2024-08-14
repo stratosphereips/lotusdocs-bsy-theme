@@ -95,11 +95,9 @@ peopleGrid:
     - title: Sebastian Garcia
       description: Sebastian is an Assistant Professor and security researcher specializing in applied machine learning for network traffic and malware detection. He founded the Stratosphere Laboratory at the Czech Technical University, focusing on impactful security research. Committed to digital rights, he advocates for free software and ML tools. His expertise includes malware detection, IDS/IPS, social network security, and more. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
       contacts:
-        - email: sebastian.garcia@agents.fel.cvut.cz
-        - github: eldraco
         - webpage: https://www.stratosphereips.org 
-        - twitter: 
-        - scholar:
+        - github: eldraco
+        - scholar: https://scholar.google.com/citations?user=WsnP6xUAAAAJ 
       image:
         path: "images/people"
         filename: "sebastian_garcia.jpg"
@@ -107,10 +105,8 @@ peopleGrid:
     - title: Maria Rigaki
       description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. In her spare time she enjoys hacking, playing music, and chess.
       contacts:
-        - email: rigamar@fel.cvut.cz
-        - github: mariarigaki
         - webpage: https://mariarigaki.github.io/
-        - twitter: 
+        - github: mariarigaki
       image:
         path: "images/people"
         filename: "maria_rigaki.jpg"
@@ -118,22 +114,17 @@ peopleGrid:
     - title: Ondřej Lukáš
       description: Ondřej is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
       contacts:
-        - email: ondrej.lukas@aic.fel.cvut.cz
+        - webpage: https://www.stratosphereips.org
         - github: ondrej-lukas
-        - webpage: 
-        - twitter: ondre.lukas
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
 
     - title: Veronica Valeros
       description: Veronica is a cybersecurity researcher born in Patagonia, Argentina. She is passionate about cybercrime, honeypots, intelligence analysis, and helping teams to be more efficient. She currently works at the Stratosphere Laboratory, AI Center, Czech Technical University in Prague, leading the efforts to design, implement, and create high-quality cybersecurity datasets that help advance the understanding and creation of new defense mechanisms, improving the global cybersecurity field. She is currently pursuing a master's degree in Intelligence and Security Studies from Liverpool John Moores University.
-      email: test@test.test
       contacts:
-        - email: 
-        - github: 
-        - webpage: 
-        - twitter: 
+        - webpage: https://verovaleros.github.io
+        - github: verovaleros
       image:
         path: "images/people"
         filename: "veronica_valeros.jpg"
@@ -141,10 +132,8 @@ peopleGrid:
     - title: Lukáš Forst
       description: Lukas is a solutions architect and cyber security enthusiast with extensive engineering experience at companies like Blindspot, Wire, CDN77, and Better Stack. In 2020, he co-founded Mild Blue, developing AI-powered software for hospitals. Since 2022, Lukas has been a teaching assistant at CTU. In 2024, he and Martin co-founded cyber defense company Recon Wave with the mission to enhance how companies manage their attack surface.
       contacts:
-        - email: lukas@forst.dev
-        - github: LukasForst
         - webpage: https://reconwave.com/
-        - twitter: 
+        - github: LukasForst
       image:
         path: "images/people"
         filename: "lukas_forst.jpeg"
@@ -152,9 +141,8 @@ peopleGrid:
     - title: Martin Řepa
       description: Martin is an ethical hacker and alumni of the class. He has extensive experience as both a software and security engineer. Notably, Martin secured third place in a National Cybersecurity competition and has identified several critical vulnerabilities in public bug bounty programs. In 2024, Martin co-founded a cyber security company called Recon Wave. In his free time, Martin likes to do bouldering and play chess.
       contacts:
-        - email: repamart@fel.cvut.cz
+        - webpage: https://reconwave.com/
         - github: HappyStoic 
-        - webpage: 
         - twitter: 
       image:
         path: "images/people"
@@ -163,10 +151,8 @@ peopleGrid:
     - title: Muris Sladic
       description: Muris is a PhD student from Bosnia and Herzegovina. He is a member of the Stratosphere research lab at ČVUT and alumni of the class. His research is focused mostly on cyber deception and defense and the impact of generative AI on cybersecurity. He is the author of shelLM, an LLM-based, high-interaction honeypot. Besides cybersecurity, he likes to play and listen to music, read, write, and play puzzle games.
       contacts:
-        - email: sladimur@fel.cvut.cz
+        - webpage: https://www.stratosphereips.org
         - github: msladic1
-        - webpage: 
-        - twitter: 
       image:
         path: "images/people"
         filename: "muris_sladic.jpg"
