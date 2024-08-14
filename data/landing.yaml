@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Introduction to Cybersecurity"
-  subtitle: "The Introduction to Cybersecurity Masterclass is a **14-week free** intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. From basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
+  subtitle: "The Introduction to Cybersecurity Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. From basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -33,7 +33,10 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  info: "This course is part of the [**Open Informatics Master**](https://oi.fel.cvut.cz/en/master-program), taught at the [**Czech Technical University in Prague**](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [**Czech Technical University in Prague**](https://fel.cvut.cz/en)."
+  info: |
+    The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
+    
+    This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en)."
   
   ctaButton:
     icon: rocket_launch
