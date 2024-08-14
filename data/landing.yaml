@@ -58,13 +58,8 @@ featureGrid:
 
   title: What does the class offer?
   subtitle: |
-    This hands-on course will walk students through all the stages of a classical penetration testing assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems.
-    
-    Online students will be able to try, test, and reproduce what is taught in class thanks to our free software cyber range.
-    
+    This hands-on course will walk students through all the stages of a classical penetration testing assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems. Online students will be able to try, test, and reproduce what is taught in class thanks to our free software cyber range.
     This one-semester (14-week) course is free, online, and open to anyone in the world. 
-
-
 
   items:
     - title: Intense & Hands-on
@@ -103,7 +98,7 @@ peopleGrid:
 
   people:
     - title: Sebastian Garcia
-      description: Sebastian is an Assistant Professor and security researcher specializing in applied machine learning for network traffic and malware detection. He founded the Stratosphere Laboratory at the Czech Technical University, focusing on impactful security research. Committed to digital rights, he advocates for free software and ML tools. His expertise includes malware detection, IDS/IPS, social network security, and more. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
+      description: Sebastian is an Assistant Professor and security researcher specializing in applied machine learning for network traffic and malware detection. He founded the Stratosphere Laboratory at the Czech Technical University in Prague. Committed to digital rights, he advocates for free software and ML tools. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
       contacts:
         - webpage: https://www.stratosphereips.org 
         - github: eldraco
@@ -113,7 +108,7 @@ peopleGrid:
         filename: "sebastian_garcia.jpg"
     
     - title: Maria Rigaki
-      description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. In her spare time she enjoys hacking, playing music, and chess.
+      description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. She spent many years in the industry as a software developer and systems architect. Maria has plenty of experience designing and integrating complex systems in telecommunication and emergency response. In her spare time, she enjoys hacking, playing music, and playing chess.
       contacts:
         - webpage: https://mariarigaki.github.io/
         - github: mariarigaki
@@ -122,7 +117,7 @@ peopleGrid:
         filename: "maria_rigaki.jpg"
         
     - title: Ondřej Lukáš
-      description: Ondřej is a PhD student from Czechia. His primary focus is explainable AI applications in cybersecurity. He is a member of the Stratosphere Lab of Czech Technical University in Prague. Likes to play sports, travel, and cook. Passionate football fan.
+      description: Ondra is a PhD student from Czechia. He is focused on explainable AI applications in cybersecurity. He is a member of the Stratosphere Laboratory at the Czech Technical University in Prague. He is a lecturer in the AI Dětem, an initiative to educate and guide teachers on how to educate in artificial intelligence. He likes to play sports, travel, and cook. Passionate football fan.
       contacts:
         - webpage: https://www.stratosphereips.org
         - github: ondrej-lukas
@@ -131,7 +126,7 @@ peopleGrid:
         filename: "ondrej_lukas.jpg"
 
     - title: Veronica Valeros
-      description: Veronica is a cybersecurity researcher born in Patagonia, Argentina. She is passionate about cybercrime, honeypots, intelligence analysis, and helping teams to be more efficient. She currently works at the Stratosphere Laboratory, AI Center, Czech Technical University in Prague, leading the efforts to design, implement, and create high-quality cybersecurity datasets that help advance the understanding and creation of new defense mechanisms, improving the global cybersecurity field. She is currently pursuing a master's degree in Intelligence and Security Studies from Liverpool John Moores University.
+      description: Veronica is a researcher born in Patagonia, Argentina. She researches on cybercrime, honeypots, intelligence analysis, and helping teams to be more efficient. She works at the Stratosphere Laboratory while pursuing a second master's in Intelligence and Security Studies from Liverpool John Moores University. Co-founder of MatesLab hackspace in Argentina and the Independent Fund for Women in Tech.
       contacts:
         - webpage: https://verovaleros.github.io
         - github: verovaleros
@@ -140,7 +135,7 @@ peopleGrid:
         filename: "veronica_valeros.jpg"
 
     - title: Lukáš Forst
-      description: Lukas is a solutions architect and cyber security enthusiast with extensive engineering experience at companies like Blindspot, Wire, CDN77, and Better Stack. In 2020, he co-founded Mild Blue, developing AI-powered software for hospitals. Since 2022, Lukas has been a teaching assistant at CTU. In 2024, he and Martin co-founded cyber defense company Recon Wave with the mission to enhance how companies manage their attack surface.
+      description: Lukas is a solutions architect and cyber security enthusiast with extensive engineering experience at companies like Blindspot, Wire, CDN77, and Better Stack. In 2020, he co-founded Mild Blue, developing AI-powered software for hospitals. In 2022, he joined the Stratosphere teaching staff. In 2024, he and Martin co-founded Recon Wave with the mission to enhance how companies manage their attack surface.
       contacts:
         - webpage: https://reconwave.com/
         - github: LukasForst
@@ -149,7 +144,7 @@ peopleGrid:
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      description: Martin is an ethical hacker and alumni of the class. He has extensive experience as both a software and security engineer. Notably, Martin secured third place in a National Cybersecurity competition and has identified several critical vulnerabilities in public bug bounty programs. In 2024, Martin co-founded a cyber security company called Recon Wave. In his free time, Martin likes to do bouldering and play chess.
+      description: Martin is an ethical hacker and an alumni of the Introduction to Security class. He has extensive experience as both a software and security engineer. Martin secured third place in a National Cybersecurity competition and identified several critical vulnerabilities in public bug bounty programs. In 2024, he and Lukas co-founded Recon Wave. In his free time, Martin likes to do bouldering and play chess.
       contacts:
         - webpage: https://reconwave.com/
         - github: HappyStoic 
@@ -159,7 +154,7 @@ peopleGrid:
         filename: "martin_repa.jpeg"
 
     - title: Muris Sladic
-      description: Muris is a PhD student from Bosnia and Herzegovina. He is a member of the Stratosphere research lab at ČVUT and alumni of the class. His research is focused mostly on cyber deception and defense and the impact of generative AI on cybersecurity. He is the author of shelLM, an LLM-based, high-interaction honeypot. Besides cybersecurity, he likes to play and listen to music, read, write, and play puzzle games.
+      description: Muris is a PhD student from Bosnia and Herzegovina. He is a member of the Stratosphere Laboratory and an alumni of the Introduction to Security class. His research is focused mostly on cyber deception and defense and the impact of generative AI on cybersecurity. He is the author of shelLM, an LLM-based, high-interaction honeypot. He likes playing and listening to music, reading, writing, and playing puzzle games.
       contacts:
         - webpage: https://www.stratosphereips.org
         - github: msladic1
