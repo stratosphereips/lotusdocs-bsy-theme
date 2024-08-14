@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Introduction to Cybersecurity"
-  subtitle: "The Introduction to Cybersecurity Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. From basic security principles to advanced attacks. You will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders."
+  subtitle: "The Introduction to Cybersecurity Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. "
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -34,6 +34,8 @@ hero:
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   info: |
+    From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders.
+    
     The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
     
     This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en)."
@@ -55,7 +57,13 @@ featureGrid:
   template: feature grid
 
   title: What does the class offer?
-  subtitle: This is a very practical course to learn how to do basic pentesting and basic defenses of systems. It is a one-semester course, free, online, and open to anyone in the world, teaching how to perform attacks and defenses in computer systems. 
+  subtitle: |
+    This hands-on course will walk students through all the stages of a classical penetration testing assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems.
+    
+    Online students will be able to try, test, and reproduce what is taught in class thanks to our free software cyber range.
+    
+    This one-semester (14-week) course is free, online, and open to anyone in the world. 
+
 
 
   items:
