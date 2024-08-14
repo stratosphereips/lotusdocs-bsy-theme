@@ -41,7 +41,7 @@ hero:
     btnText: "Register Today"
   cta2Button:
     icon: book
-    btnText: "About the Course"
+    btnText: "Learn More"
     url: "docs/about/"
 
 
