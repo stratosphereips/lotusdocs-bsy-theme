@@ -74,7 +74,7 @@ featureGrid:
 
     - title: Red Teaming
       icon: destruction
-      description: The course is designed to have one class about attacking and one class about defending. This gives you real-world experience on how attacks work, how to make them happen, and how hard and fun is to exploit a remote computer.
+      description: Attack-focused classes will give you real-world experience on how attacks work, how to make them happen, and how hard and fun is to exploit a remote computer. This is essential knowledge to learn to defend better.
 
     - title: Blue Teaming
       icon: security
