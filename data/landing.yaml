@@ -43,7 +43,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Register Today"
-    url: "https://www.eventbrite.com/e/970324044337/"
+    url: https://www.eventbrite.com/e/970324044337
   cta2Button:
     icon: book
     btnText: "Learn More"
