@@ -63,14 +63,13 @@ featureGrid:
       icon: speed
       description: The course is fast-paced and very practical. Each concept we teach needs to be tried to be completely understood. Every topic shown in the course is practiced and done by you to deepen your knowledge and give you experience.
  
-
     - title: From Zero to Hero
       icon: trending_up
       description: The class is open to anyone who is tech-savvy and familiar with command line knowledge. Previous security experience is not a requirement. You will learn networking, security fundamentals, pentesting, and defensive strategies. In one semester, you will exploit vulnerabilities, attack web pages, and use machine learning for defense.
 
     - title: Certificate of Completion
       icon: workspace_premium
-      description: If you successfully complete the course, the Stratosphere Laboratory will give you a certificate of completion. This is not an official Czech Technical University certificate (that is still under approval) but it will guarantee you successfully complete the course.
+      description: Upon completing the course, students will receive a certificate of completion from the Stratosphere Laboratory. Please note that this certificate is not yet an official Czech Technical University in Prague certificate (pending approval), but it confirms your successful course completion.
 
     - title: Red Teaming
       icon: destruction
