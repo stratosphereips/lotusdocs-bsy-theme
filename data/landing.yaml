@@ -35,10 +35,9 @@ hero:
 
   info: |
     From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders.
-    
     The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
     
-    This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en)."
+    This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
   
   ctaButton:
     icon: rocket_launch
@@ -57,7 +56,7 @@ featureGrid:
   template: feature grid
 
   title: What does the class offer?
-  subtitle: |
+  subtitle:
     This hands-on course will walk students through all the stages of a classical penetration testing assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems. Online students will be able to try, test, and reproduce what is taught in class thanks to our free software cyber range.
     This one-semester (14-week) course is free, online, and open to anyone in the world. 
 
