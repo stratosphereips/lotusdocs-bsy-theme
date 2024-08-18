@@ -118,8 +118,9 @@ peopleGrid:
     - title: Ondřej Lukáš
       description: Ondra is a PhD student from Czechia. He is focused on explainable AI applications in cybersecurity. He is a member of the Stratosphere Laboratory at the Czech Technical University in Prague. He is a lecturer in the AI Dětem, an initiative to educate and guide teachers on how to educate in artificial intelligence. He likes to play sports, travel, and cook. Passionate football fan.
       contacts:
-        - webpage: https://www.stratosphereips.org
+        - webpage: https://www.researchgate.net/profile/Ondrej-Lukas-4
         - github: ondrej-lukas
+        - twitter: ondrej.lukas
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
