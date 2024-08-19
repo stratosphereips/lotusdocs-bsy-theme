@@ -101,7 +101,8 @@ peopleGrid:
       contacts:
         - webpage: https://www.stratosphereips.org 
         - github: eldraco
-        - scholar: https://scholar.google.com/citations?user=WsnP6xUAAAAJ 
+        - scholar: WsnP6xUAAAAJ
+        - linkedin: sebagarcia
       image:
         path: "images/people"
         filename: "sebastian_garcia.jpg"
@@ -111,6 +112,8 @@ peopleGrid:
       contacts:
         - webpage: https://mariarigaki.github.io/
         - github: mariarigaki
+        - linkedin: maria-rigaki
+        - scholar: 90yGfrsAAAAJ
       image:
         path: "images/people"
         filename: "maria_rigaki.jpg"
@@ -121,6 +124,7 @@ peopleGrid:
         - webpage: https://www.researchgate.net/profile/Ondrej-Lukas-4
         - github: ondrej-lukas
         - twitter: ondrej.lukas
+        - scholar: uycJe_QAAAAJ
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
@@ -130,6 +134,8 @@ peopleGrid:
       contacts:
         - webpage: https://verovaleros.github.io
         - github: verovaleros
+        - linkedin: veronicavalerossaracho
+        - scholar: V9VKkWAAAAAJ 
       image:
         path: "images/people"
         filename: "veronica_valeros.jpg"
@@ -139,6 +145,7 @@ peopleGrid:
       contacts:
         - webpage: https://reconwave.com/
         - github: LukasForst
+        - linkedin: lukas-forst
       image:
         path: "images/people"
         filename: "lukas_forst.jpeg"
@@ -148,7 +155,7 @@ peopleGrid:
       contacts:
         - webpage: https://reconwave.com/
         - github: HappyStoic 
-        - twitter: 
+        - linkedin: martinrepa 
       image:
         path: "images/people"
         filename: "martin_repa.jpeg"
@@ -158,6 +165,8 @@ peopleGrid:
       contacts:
         - webpage: https://www.stratosphereips.org
         - github: msladic1
+        - scholar: 0m2q32IAAAAJ
+        - linkedin: muris-sladi%C4%87-0a3ab4145
       image:
         path: "images/people"
         filename: "muris_sladic.jpg"
