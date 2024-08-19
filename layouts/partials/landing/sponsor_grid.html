@@ -17,8 +17,13 @@
     .icon_padding-025{
         padding-right: 0.25em;
     }
-    .no-wrap{
-        flex-wrap: nowrap;
+    .wrap-space-around{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .mb-1-5{
+        margin-bottom: 1.5em;
     }
 </style>
 
@@ -41,12 +46,12 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="row no-wrap">
+                <div class="row wrap-space-around">
                     {{ range .sponsors }}
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-1-5">
                         <a href="{{ .url }}" alt="{{ .title }}"
                         rel="noopener noreferrer" target="_blank">
-                            <div class="text-center text-primary me-3 personal_photo">
+                            <div class="personal_photo">
                                 {{ with .image }}
                                 {{ $path := .path | default "images" }}
                                 {{ $filename := .filename }}
