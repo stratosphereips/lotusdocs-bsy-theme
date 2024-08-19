@@ -24,8 +24,8 @@ hero:
   #   alt: "Lotus Docs Logo"
   #   height: 80px
 
-  title: "Introduction to Cybersecurity"
-  subtitle: "The Introduction to Cybersecurity Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. "
+  title: "Introduction to Security"
+  subtitle: "The Introduction to Security Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. "
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -84,7 +84,6 @@ featureGrid:
     - title: International Team
       icon: translate
       description: Our teaching team is composed of individuals of diverse backgrounds, ethnicities, and experiences. We all share a common passion for teaching and are dedicated to ensuring all our students have good learning experiences.
-
 
 # peopleGrid
 peopleGrid:
@@ -170,3 +169,35 @@ peopleGrid:
       image:
         path: "images/people"
         filename: "muris_sladic.jpg"
+
+# sponsors:
+sponsorGrid:
+  enable: true
+  weight: 30
+  template: sponsor grid
+  title: Supporters
+  subtitle: This class was made possible thanks to the generous support of the following institutions
+
+  sponsors:
+    - title: Czech Technical University in Prague
+      url: https://www.cvut.cz/en
+      image:
+        path: "images/sponsors"
+        filename: "logo_cvut_en_doplnkova_verze.svg"
+    
+    - title: Faculty of Electrical Engineering
+      url: https://fel.cvut.cz/en
+      image:
+        path: "images/sponsors"
+        filename: "fee.svg"
+
+    - title: AI Center
+      url: https://www.aic.fel.cvut.cz/
+      image:
+        path: "images/sponsors"
+        filename: "aic.svg"
+    - title: Stratosphere Laboratory
+      url: https://www.stratosphereips.org/
+      image:
+        path: "images/sponsors"
+        filename: "stratosphere.png"
