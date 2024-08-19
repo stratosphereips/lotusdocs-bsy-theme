@@ -175,8 +175,8 @@ sponsorGrid:
   enable: true
   weight: 30
   template: sponsor grid
-  title: Sponsors
-  subtitle: Following institutions make the class possible
+  title: Supporters
+  subtitle: The class is made possible with the support of following institutions
 
   sponsors:
     - title: Czech Technical University in Prague
