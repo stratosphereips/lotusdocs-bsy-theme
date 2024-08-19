@@ -6,13 +6,8 @@
         color: #0392ba;
     }
 
-    .personal_photo {
-        height: 5rem !important;
-    }
-
-    .socials_icon {
-        height: 1.5rem !important;
-        width: 1.5rem !important;
+    .sponsor_logo {
+        height: 8rem !important;
     }
     .icon_padding-025{
         padding-right: 0.25em;
@@ -51,7 +46,7 @@
                     <div class="col-md-4 mb-1-5">
                         <a href="{{ .url }}" alt="{{ .title }}"
                         rel="noopener noreferrer" target="_blank">
-                            <div class="personal_photo">
+                            <div class="sponsor_logo">
                                 {{ with .image }}
                                 {{ $path := .path | default "images" }}
                                 {{ $filename := .filename }}
@@ -61,7 +56,7 @@
 
 
                                 {{ with $image := resources.Get $path }}
-                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex rounded-3">
+                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex">
                                 {{ end }}
                                 {{ end }}
                                 {{ end }}
