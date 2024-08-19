@@ -85,20 +85,6 @@ featureGrid:
       icon: translate
       description: Our teaching team is composed of individuals of diverse backgrounds, ethnicities, and experiences. We all share a common passion for teaching and are dedicated to ensuring all our students have good learning experiences.
 
-# # sponsors:
-# sponsorGrid:
-#   enable: false:
-#   weight: 21
-#   template: sponsor grid
-#   title: Sponsors
-#   subtitle: Following institutions make the class possible
-
-#   sponsors:
-#     - title: Czech Technical University in Prague
-#       image:
-#         path:
-#         filename:
-
 # peopleGrid
 peopleGrid:
   enable: true
@@ -183,3 +169,35 @@ peopleGrid:
       image:
         path: "images/people"
         filename: "muris_sladic.jpg"
+
+# sponsors:
+sponsorGrid:
+  enable: true
+  weight: 30
+  template: sponsor grid
+  title: Sponsors
+  subtitle: Following institutions make the class possible
+
+  sponsors:
+    - title: Czech Technical University in Prague
+      url: https://www.cvut.cz/en
+      image:
+        path: "images/sponsors"
+        filename: "logo_cvut_en_doplnkova_verze.svg"
+    
+    - title: Faculty of Electrical Engineering
+      url: https://fel.cvut.cz/en
+      image:
+        path: "images/sponsors"
+        filename: "fee.svg"
+
+    - title: AI Center
+      url: https://www.aic.fel.cvut.cz/
+      image:
+        path: "images/sponsors"
+        filename: "aic.svg"
+    - title: Stratosphere Laboratory
+      url: https://www.stratosphereips.org/
+      image:
+        path: "images/sponsors"
+        filename: "stratosphere.png"
