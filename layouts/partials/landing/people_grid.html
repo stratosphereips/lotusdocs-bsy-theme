@@ -88,7 +88,7 @@
                                     <!-- scholar  -->
                                     {{ if eq $key "scholar" }}
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
-                                    <a href="https://{{ $key }}.google.com/citations?user{{ $value }}" alt="{{ $key }}"
+                                    <a href="https://{{ $key }}.google.com/citations?user={{ $value }}" alt="{{ $key }}"
                                         rel="noopener noreferrer" target="_blank">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
