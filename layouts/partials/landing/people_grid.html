@@ -14,9 +14,8 @@
         height: 1.5rem !important;
         width: 1.5rem !important;
     }
-    .icon_padding-1{
-        padding-left: 1px;
-        padding-right: 1px;
+    .icon_padding-025{
+        padding-right: 0.25em;
     }
 </style>
 
@@ -71,7 +70,7 @@
                                     {{ if eq $key "linkedin" }}
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
                                     <a href="https://{{ $key }}.com/in/{{ $value }}" alt="{{ $key }}"
-                                        rel="noopener noreferrer" target="_blank">
+                                        rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
                                             {{ .Content | safeHTML }}
@@ -81,15 +80,24 @@
                                     {{ else }}
                                     {{ if eq $key "webpage" }}
                                     <!-- webpage  -->
-                                    <a href="{{ $value | absURL }}" class="mt-3 h6 hover_icon" target="_blank">
+                                    <!-- <a href="{{ $value | absURL }}" class="mt-3 h6 hover_icon" target="_blank">
                                         <i class="material-icons align-top">contact_page</i>
+                                    </a> -->
+                                    {{ $path := printf "images/social/%s.%s" $key "svg" }}
+                                    <a href="{{ $value | absURL }}" alt="{{ $key }}"
+                                        rel="noopener noreferrer" target="_blank" class="icon_padding-025">
+                                        <div class="btn btn-icon btn-landing border-0 socials_icon">
+                                            {{ with resources.Get $path }}
+                                            {{ .Content | safeHTML }}
+                                            {{ end }}
+                                        </div>
                                     </a>
                                     {{ else }}
                                     <!-- scholar  -->
                                     {{ if eq $key "scholar" }}
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
                                     <a href="https://{{ $key }}.google.com/citations?user={{ $value }}" alt="{{ $key }}"
-                                        rel="noopener noreferrer" target="_blank">
+                                        rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
                                             {{ .Content | safeHTML }}
@@ -100,7 +108,7 @@
                                     <!-- Other socials -->
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
                                     <a href="https://{{ $key }}.com/{{ $value }}" alt="{{ $key }}"
-                                        rel="noopener noreferrer" target="_blank">
+                                        rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
                                             {{ .Content | safeHTML }}
