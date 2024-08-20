@@ -196,6 +196,13 @@ sponsorGrid:
       image:
         path: "images/sponsors"
         filename: "aic.svg"
+    
+    - title: Open Informatics
+      url: https://oi.fel.cvut.cz/en/
+      image:
+        path: "images/sponsors"
+        filename: "oi.png"
+
     - title: Stratosphere Laboratory
       url: https://www.stratosphereips.org/
       image:
