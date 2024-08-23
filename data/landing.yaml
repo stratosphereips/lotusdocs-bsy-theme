@@ -111,8 +111,8 @@ peopleGrid:
       contacts:
         - webpage: https://mariarigaki.github.io/
         - github: mariarigaki
-        - linkedin: maria-rigaki
         - scholar: 90yGfrsAAAAJ
+        - linkedin: maria-rigaki
       image:
         path: "images/people"
         filename: "maria_rigaki.jpg"
@@ -122,8 +122,8 @@ peopleGrid:
       contacts:
         - webpage: https://www.researchgate.net/profile/Ondrej-Lukas-4
         - github: ondrej-lukas
-        - twitter: ondrej.lukas
         - scholar: uycJe_QAAAAJ
+        - twitter: ondrej.lukas
       image:
         path: "images/people"
         filename: "ondrej_lukas.jpg"
@@ -133,8 +133,8 @@ peopleGrid:
       contacts:
         - webpage: https://verovaleros.github.io
         - github: verovaleros
+        - scholar: V9VKkWAAAAAJ
         - linkedin: veronicavalerossaracho
-        - scholar: V9VKkWAAAAAJ 
       image:
         path: "images/people"
         filename: "veronica_valeros.jpg"
