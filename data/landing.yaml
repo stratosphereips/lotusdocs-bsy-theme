@@ -85,6 +85,39 @@ featureGrid:
       icon: translate
       description: Our teaching team is composed of individuals of diverse backgrounds, ethnicities, and experiences. We all share a common passion for teaching and are dedicated to ensuring all our students have good learning experiences.
 
+# class variants
+classVariants:
+  enable: true
+  weight: 21
+  template: class variants
+
+  title: Course variants
+  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To partiticipate in the course students have to be either enrolled in the univeristy study programme or register for free, online version of the course.
+
+  items:
+    - title: B4M36BSY & BE4M36BSY
+      icon: school
+      description: "Registration in the full version of the course is open to any student enrolled in any undergraduate or graduate programme of the Czech Technical University in Prague. Students registered in the full-scale course are required to pass practical assginments and a final exam. The full-scale course is accredited for 6 ECTS credits."
+      reqBtnIcon: explore
+      reqBtnText: "Requirements"
+      reqBtnUrl: /docs/requirements/ctustudents
+
+      regBtnIcon: school
+      regBtnText: "KOS Registration"
+      regBtnUrl: https://www.kos.cvut.cz/
+
+    - title: Free online course
+      icon: public
+      description: "Free version of the course is available to anyone upon registration in Eventbrite. Students registered in the free online version of the course will have access to the live streams of the tutorials, support material and course communication platform. Upon finishing the course, students will get the **Certificate of Completion**"
+
+      reqBtnIcon: explore
+      reqBtnText: "Requirements"
+      reqBtnUrl: /docs/requirements/onlinecourse/
+
+      regBtnIcon: public
+      regBtnText: "Free Registration"
+      regBtnUrl: https://www.eventbrite.com/e/970324044337
+
 # peopleGrid
 peopleGrid:
   enable: true
