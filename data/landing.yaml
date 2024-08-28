@@ -175,8 +175,8 @@ sponsorGrid:
   enable: true
   weight: 30
   template: sponsor grid
-  title: Supporters
-  subtitle: This class was made possible thanks to the generous support of the following institutions
+  title: Organizations
+  subtitle: This class is done by the Stratosphere Laboratory, member of AIC group, Comp. Sience Dept., FEL faculty, CTU University. The class is part of the Open Informatics Master program.
 
   sponsors:
     - title: Czech Technical University in Prague
