@@ -71,7 +71,7 @@ featureGrid:
 
     - title: Certificate of Completion
       icon: workspace_premium
-      description: Upon completing the course, students will receive a certificate of completion from the Stratosphere Laboratory. Please note that this certificate is not yet an official Czech Technical University in Prague certificate (pending approval), but it confirms your successful course completion.
+      description: Upon completing the course, students will receive a certificate of completion from the Stratosphere Laboratory. Please note that this certificate is not an official Czech Technical University in Prague certificate, but it confirms your successful course completion.
 
     - title: Red Teaming
       icon: destruction
