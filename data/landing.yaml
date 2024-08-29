@@ -97,7 +97,7 @@ classVariants:
   items:
     - title: B4M36BSY & BE4M36BSY
       icon: school
-      description: "Registration in the full version of the course is open to any student enrolled in any undergraduate or graduate programme of the Czech Technical University in Prague. Students registered in the full-scale course are required to pass practical assginments and a final exam. The full-scale course is accredited for 6 ECTS credits."
+      description: "Registration in the full version of the course is open to any student enrolled in any undergraduate or graduate programme of the Czech Technical University in Prague. Students registered in the full-scale course are required to pass practical assginments and a final exam. The full-scale course is accredited for **6 ECTS credits**."
       reqBtnIcon: explore
       reqBtnText: "Requirements"
       reqBtnUrl: /docs/requirements/ctustudents
