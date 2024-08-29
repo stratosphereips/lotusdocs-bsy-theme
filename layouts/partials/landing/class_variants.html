@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
      .wrap-space-around{
         flex-wrap: wrap;
         justify-content: space-around;
@@ -16,6 +16,50 @@
 
     .custom-btn .material-icons {      /* Adjust icon size if needed */
         margin-right: 0.25em;        /* Add space between the icon and text */
+    }
+</style> -->
+<style>
+    .wrap-space-around{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .modality_header{
+        text-align: center;
+        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+    }
+    
+    .custom-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center align the button content on smaller screens */
+        padding: 0.75em 1em; /* Adjust padding for smaller screens */
+        font-size: 1em; /* Adjust button font size for smaller screens */
+    }
+
+    .custom-btn .material-icons {
+        margin-right: 0.25em;
+        font-size: 1.2em; /* Adjust icon size for better visibility */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .custom-btn {
+            width: 100%; /* Make buttons full-width on mobile devices */
+            margin-bottom: 0.5em; /* Add some margin to the bottom of buttons */
+        }
+
+        .modality_header {
+            font-size: 1.1em; /* Slightly smaller text for headers on mobile */
+        }
+
+        .container {
+            padding: 0 15px; /* Reduce padding on mobile */
+        }
+
+        .row {
+            margin: 0; /* Remove margin on mobile */
+        }
     }
 </style>
 
@@ -43,20 +87,20 @@
             <div class="col-lg-12">
                 <div class="row">
                     {{ range .items }}
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-12"> <!-- Added col-12 for full width on small devices -->
                             <div class="d-flex features feature-primary p-3">
                                 <div class="flex-1">
                                     <h4 class="title modality_header">{{ .title }}</h4>
                                     <p class="text-muted para mb-0">{{ .description | markdownify }}</p>
-                                    <div class="mt-2 d-flex justify-content-center">
-                                        <a href="{{ .reqBtnUrl }}"  class="btn btn-lg btn-outline-primary mt-2 me-2 custom-btn">
+                                    <div class="mt-2 d-flex justify-content-center flex-column flex-md-row">
+                                        <a href="{{ .reqBtnUrl }}"  class="btn btn-lg btn-outline-primary mt-2 me-md-2 custom-btn">
                                             <span class="material-icons align-middle">{{ .reqBtnIcon }}</span>
                                             {{ with .reqBtnText }}
                                                 {{ . }}
                                             {{ end }}
                                         </a>
                                         <a href="{{ .regBtnUrl }}"  target="_blank" class="btn btn-lg btn-outline-primary mt-2 custom-btn">
-                                                <span class="material-icons align-middle">{{ .regBtnIcon }}</span>
+                                            <span class="material-icons align-middle">{{ .regBtnIcon }}</span>
                                             {{ with .regBtnText }}
                                                 {{ . }}
                                             {{ end }}
