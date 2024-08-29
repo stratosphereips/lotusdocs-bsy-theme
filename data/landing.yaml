@@ -92,7 +92,7 @@ classVariants:
   template: class variants
 
   title: Course variants
-  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To partiticipate in the course students have to be either enrolled in the univeristy study programme or register for free, online version of the course.
+  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To participate in the course students have to be either enrolled in the university study programme or register for free, online version of the course.
 
   items:
     - title: B4M36BSY & BE4M36BSY
@@ -208,8 +208,8 @@ sponsorGrid:
   enable: true
   weight: 30
   template: sponsor grid
-  title: Supporters
-  subtitle: This class was made possible thanks to the generous support of the following institutions
+  title:  Organizations
+  subtitle: This class is taught by the Stratosphere Laboratory, AI Center, Department of Computer Science, Faculty of Electrical Engineering, Czech Technical University in Prague. The class is part of the Open Informatics Master program.
 
   sponsors:
     - title: Czech Technical University in Prague
