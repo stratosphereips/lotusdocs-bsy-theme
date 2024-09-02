@@ -1,3 +1,41 @@
+<style>
+    .border-highlight{
+       border-left: 0.5em solid; /* Adds a 1em solid border to the left side */
+       border-color: #0392ba; /* Specifies the color of the border (black in this case) */
+       padding-left: 1em;
+       padding-bottom: 0.5em;
+       padding-bottom: 0.5em;
+       animation: fadeIn 2s ease-in;
+    }
+    .text-highlight{
+       font-size: 1.2em;
+    }
+   
+   </style>
+   <script>
+   document.addEventListener('DOMContentLoaded', function() {
+     const countUpElement = document.querySelector('.count-up');
+     const target = parseInt(countUpElement.getAttribute('data-target'), 10);
+     const suffix = countUpElement.getAttribute('data-suffix')
+     let current = 0;
+     const duration = 1000; // Total duration of the count-up effect in milliseconds
+     const interval = 10; // Update interval in milliseconds
+     const increment = (target / duration) * interval; // Amount to increment at each step
+   
+     function countUp() {
+       current += increment;
+       if (current >= target) {
+         countUpElement.textContent = target + suffix; // Ensure it reaches the exact target value
+       } else {
+         countUpElement.textContent = Math.floor(current);
+         requestAnimationFrame(countUp); // Use requestAnimationFrame for smoother animation
+       }
+     }
+   
+     countUp(); // Start the count-up animation
+   });
+   </script>
+
 {{ $sectionTitle := .Scratch.Get "sectionTitle" }}
 {{ with (index .Site.Data.landing $sectionTitle) }}
 {{ if eq .enable true }}
@@ -117,8 +155,27 @@
                     {{ end }}
                 {{ end }}
             </div><!--end col-->
-
         </div><!--end row-->
+
+        <!-- class statistic -->
+        <div class="row mt-5 align-items-center">
+            {{ with .statistics }}
+            {{ $year := .year }}
+            {{ $students := .students}}
+            <div class="col-lg-6 col-md-6 mb-2">
+                <div class="border-highlight text-highlight">
+                    <h1 class=>{{ $year }}<sup>th</sup></h1>
+                    successful year of the course
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-2">
+                <div class="border-highlight text-highlight ">
+                    <h1 class="count-up" data-target="{{ $students }}" data-suffix="+">{{ $students }}</h1>
+                graduates of the Open Informatics programme
+                </div>
+            </div>
+            {{ end }}
+        </div> 
     </div> <!--end container-->
 </section><!--end section-->
 <!-- Hero End -->
