@@ -47,6 +47,9 @@ hero:
     icon: book
     btnText: "Learn More"
     url: "docs/about/"
+  statistics:
+    year: 8
+    students: 400
 
 
 # Feature Grid
