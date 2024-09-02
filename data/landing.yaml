@@ -49,7 +49,10 @@ hero:
     url: "docs/about/"
   statistics:
     year: 8
+    yearTextSuffix: "successful year of the course"
     students: 400
+    studentsTextSuffix: "graduates of the course coming from the Open Informatics programme"
+
 
 
 # Feature Grid

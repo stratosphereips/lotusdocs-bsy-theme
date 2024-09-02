@@ -161,17 +161,20 @@
         <div class="row mt-5 align-items-center">
             {{ with .statistics }}
             {{ $year := .year }}
+            {{ $yearText := .yearTextSuffix}}
             {{ $students := .students}}
+            {{ $studentsText := .studentsTextSuffix}}
+
             <div class="col-lg-6 col-md-6 mb-2">
                 <div class="border-highlight text-highlight">
                     <h1 class=>{{ $year }}<sup>th</sup></h1>
-                    successful year of the course
+                    <p>{{ $yearText }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-2">
                 <div class="border-highlight text-highlight ">
                     <h1 class="count-up" data-target="{{ $students }}" data-suffix="+">{{ $students }}</h1>
-                graduates of the Open Informatics programme
+                    <p>{{ $studentsText }}</p>
                 </div>
             </div>
             {{ end }}
