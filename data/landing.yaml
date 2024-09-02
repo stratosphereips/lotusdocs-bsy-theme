@@ -47,11 +47,12 @@ hero:
     icon: book
     btnText: "Learn More"
     url: "docs/about/"
+  
   statistics:
     year: 8
     yearTextSuffix: "successful year of the course"
     students: 400
-    studentsTextSuffix: "graduates of the course coming from the Open Informatics programme"
+    studentsTextSuffix: "graduates of the course from the Open Informatics programme"
 
 
 
