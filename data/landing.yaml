@@ -215,7 +215,7 @@ comments:
   enable: true
   weight: 26
   template: comments
-  title: Student's reviews
+  title: Student reviews
   subtitle: Selection of feedback from students who participated in the previous iterations of Introduction to Security course. The feedback is derived from the anonymous evaluation of the course collected by the Czech Technical University in Prague.
 
   reviews:
