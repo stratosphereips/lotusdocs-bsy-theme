@@ -1,0 +1,89 @@
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var grid = document.querySelector('.grid-container');
+      var msnry = new Masonry(grid, {
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-sizer', // Define a sizer element for column width
+        percentPosition: true,      // Enable percentage-based positioning
+        gutter: 20                  // Space between items
+      });
+    });
+  </script>  
+<style>
+ .grid-container {
+    position: relative; /* Masonry needs this to position items */
+}
+
+.grid-item {
+    width: 30%; /* Set the width of the grid items */
+    margin-bottom: 20px; /* Gutter between grid items */
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.grid-sizer {
+    width: 30%; /* This should match the grid-item width */
+}
+
+.features {
+    height: auto;
+}
+
+
+p.italic {
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .grid-item {
+        width: 100%; /* Single column on mobile */
+    }
+}
+</style>
+
+{{ $sectionTitle := .Scratch.Get "sectionTitle" }}
+{{ with (index .Site.Data.landing $sectionTitle) }}
+{{ if eq .enable true }}
+<!-- Comments -->
+<section id="{{ $sectionTitle }}">
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title">
+                    {{ with .title }}
+                        <h4 class="title fw-bold mb-4">{{ . }}</h4>
+                    {{ end }}
+                    {{ with .subtitle }}
+                        <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ . | markdownify }}</p>
+                    {{ end }}
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="grid-container">
+                    <div class="grid-sizer"></div> <!-- This defines the column width -->
+                    {{ range .reviews }}
+                        <div class="grid-item">
+                            <div class="features feature-primary p-3">
+                                <p class="text-muted para mb-0 italic">{{ .review | markdownify }}</p>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>                
+                <!--end grid-container-->
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
+<!-- features End -->
+{{ end }}
+{{ end }}
