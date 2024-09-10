@@ -210,6 +210,25 @@ peopleGrid:
         path: "images/people"
         filename: "muris_sladic.jpg"
 
+# comments
+comments:
+  enable: true
+  weight: 26
+  template: comments
+  title: Student reviews
+  subtitle: Selection of feedback from students who participated in the previous iterations of Introduction to Security course. The feedback is derived from the anonymous evaluation of the course collected by the Czech Technical University in Prague.
+
+  reviews:
+    - review: "Probably the best class I've had throughout my studies. I liked the concept of lab and lecture connected together. The homework challenges were fun to do and I feel like I've learned a lot doing them, yet they did not take too much time to solve which is in my opinion exactly how homework should look like. Thanks for the class!"
+    - review: "Initially, I was quite skeptical about the idea of one long lecture that would serve also as a lab, but it was a lot better than I expected. BSY covers a wide range of topics, but it doesn't feel overwhelming (as it appeared to me at least).\nThe assignments were a pinnacle of this subject, loved it. They are a form of Capture the Flag by attacking or defending docker containers. The BSY team have clearly put a lot of work into it and, if there was an error in the existing assignments, promptly fixed it or posted a hint. Speaking of the BSY team, I haven't yet seen such an enthusiastic and cooperative group of lecturers.\nI also really liked that each of them had at least one lecture"
+    - review: "Easily the best course I have taken at FEE. Extremely interesting topics, with good balance of theoretical and practical parts. The assignments are fun to do and are well made(each has a pop-culture reference theme, which I really liked). That does not mean that the assignments are easy, but the fact that they are engaging helps a lot."
+    - review: "This was undoubtedly **the most well-prepared course** I've taken so far, including through my bachelor's degree.\nThe classes were highly practical, with almost every concept being not only taught but also demonstrated. Ensuring that everyone had the opportunity to replicate the learning experience was a priority.\nThe examples of malware and vulnerabilities presented were current, and I strongly believe that some of the vulnerabilities showcased still exist on numerous production servers that remain unpatched today.\nThe class materials were meticulously crafted. Each session came with a comprehensive document that provided a step-by-step guide, along with well-explained example commands.\nThe assignments were both challenging and engaging. Each task was cleverly framed with a pop culture reference, preventing any monotony or dryness. I believe the assignment format was wisely chosen, resembling common CTF scenarios, a prevalent method for cybersecurity professionals to hone their skills.\nThe teachers and TAs were virtually available 24/7, always ready to offer assistance.\nIn summary, it was a superb experience."
+    - review: "One of the best courses I have taken in 7 semesters at FEE. It is quite demanding, especially in terms of time (especially if you do the bonus part), but I can highly recommend it. The lectures and assignments were great!"
+    - review: "Very unique take on the course, both lectures and exams. Very well prepared homework with sometime unclear assignments, but this was compensated by quick communication with the teachers, who were always willing to explain uncertainties."
+    - review: The content is great, the materials are very good, especially the labs, the teachers are enthusiastic and helpful.
+    - review: "A wonderful and most importantly very hands-on look at the field of computer security. I very much appreciate the infrastructure and the opportunity provided to try out virtually every aspect discussed in the lectures."
+    - review: Even if this course is not required for you, I highly recommend it. I highly appreaciate the interactivity in the lectures and excercises (though there's not difference between these two int this course). Each week there is a new task, while it was sometimes time-consuming, I found them truly engaging, and I never felt that I was missing some tool or knowledge to be able to complete the task - and if I did, I could ask, because we could have instant communications with all of the teachers.
+
 # sponsors:
 sponsorGrid:
   enable: true
