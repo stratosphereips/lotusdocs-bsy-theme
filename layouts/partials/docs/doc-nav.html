@@ -1,3 +1,4 @@
+{{ if (default true .Params.bottom_nav) }}
 <hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
 {{ if or .Prev .Next -}}
@@ -35,3 +36,4 @@
     </div>
 {{ end -}}
 </div>
+{{ end }}
