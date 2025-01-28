@@ -1,0 +1,7 @@
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"
+        {{ with .Get "max-width" }} style="max-width:{{ . }};" {{ end }}>
+    {{ with .Get "caption" }}
+        <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>
