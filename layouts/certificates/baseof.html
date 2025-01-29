@@ -46,7 +46,7 @@
         <!-- End Google Tag Manager (noscript) -->
         <div class="content">
             <div class="page-wrapper toggled">
-                {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") . -}}
+                {{ partial "certificates/sidebar.html" . }}
                     <!-- Start Page Content -->
                     <main class="page-content bg-transparent">
                         {{ if hugo.IsMultilingual }}
