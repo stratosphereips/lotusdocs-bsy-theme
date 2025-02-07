@@ -1,4 +1,4 @@
-{{- with $.Params.images -}}
+<!-- {{- with $.Params.images -}}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
 {{ else -}}
@@ -6,7 +6,8 @@
 {{- $featured := partial (printf "%s/%s" ($.Scratch.Get "pathName") "head/get-featured-image.html") . }}
 {{- with $featured -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+<meta name="twitter:image" content='{{  strings.TrimSuffix "/" .Permalink }}.png'/>
+<meta property="og:image" content='{{  strings.TrimSuffix "/" .Permalink }}.png'/>
 {{- else -}}
 {{- with $.Site.Params.images -}}
 <meta name="twitter:card" content="summary_large_image"/>
@@ -15,9 +16,11 @@
 <meta name="twitter:card" content="summary"/>
 {{- end -}}
 {{- end -}}
-{{- end }}
+{{- end }} -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content='{{  strings.TrimSuffix "/" .Permalink }}.png'/>
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{ with .Site.Params.socials.twitter -}}
-<meta name="twitter:site" content="@{{ . }}"/>
+<meta name="twitter:site" content="@StratosphereIPS"/>
 {{ end -}}
