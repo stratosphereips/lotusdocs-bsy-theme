@@ -9,7 +9,7 @@
     {{ end }}
 {{ end }}
 <html lang="{{ site.LanguageCode }}">
-    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "head.html") . -}}
+    {{- partial "certificates/head.html" . -}}
      <!-- Start of tracking code -->
     <!-- Facebook Pixel Code -->
     <script>
