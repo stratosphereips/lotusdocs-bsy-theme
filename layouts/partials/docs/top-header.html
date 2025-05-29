@@ -78,7 +78,8 @@
                 </span>
             </button>
             {{ end -}}
-            {{ if hugo.IsMultilingual }}
+
+            {{ if .Site.IsMultiLingual }}
                 <div class="dropdown">
                     <button class="btn btn-link btn-default dropdown-toggle ps-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ site.Language.Lang | upper }}
