@@ -21,12 +21,12 @@
         {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{- end }}
     
-    {{- $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "scss/style.scss" . | toCSS }}
+    {{- $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "scss/style.scss" . | resources.ToCSS $options}}
+    <!-- {{- $style = $style | resources.ExecuteAsTemplate "scss/style.scss" . | resources.ToCSS $options }} -->
     {{- if $.Scratch.Get "image_compare_enabled" }}
         {{- $imageCompare := resources.Get "scss/custom/pages/image-compare-viewer.scss" }}
         {{- $style = $style | resources.Concat $imageCompare.RelPermalink }}
     {{- end }}
-    <!-- {{- $style := resources.Get "scss/style.scss" | toCSS | minify }} -->
 
 
     {{- if hugo.IsProduction }}
