@@ -49,10 +49,10 @@ hero:
     url: "docs/about/"
   
   statistics:
-    year: 8
+    year: 9
     yearTextSuffix: "successful year of the course"
-    students: 400
-    studentsTextSuffix: "graduates of the course from the Open Informatics programme"
+    students: 700
+    studentsTextSuffix: "graduates of the course from the Open Informatics programme and the online course"
 
 
 
