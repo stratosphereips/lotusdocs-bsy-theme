@@ -42,6 +42,11 @@
         font-size: 1.2em; /* Adjust icon size for better visibility */
     }
 
+    .header-anchor {
+        visibility: hidden;
+        margin-right: 0.3em;
+        text-decoration: none;
+    }
     /* Responsive adjustments */
     @media (max-width: 768px) {
         .custom-btn {
@@ -73,10 +78,10 @@
     <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <div class="section-title">
-                    {{ with .title }}
-                    <h4 class="title fw-bold mb-4">{{ . }}</h4>
-                    {{ end }}
+                {{ with .title }}
+                <div class="section-title" id="{{ . | urlize }}">
+                    <h4 class="title fw-bold mb-4" id="{{ . | urlize }}">{{ . }}</h4>
+                {{ end }}
                     {{ with .subtitle }}
                     <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ . | markdownify }}</p>
                     {{ end }}

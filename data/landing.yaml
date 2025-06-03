@@ -41,8 +41,8 @@ hero:
   
   ctaButton:
     icon: update
-    btnText: "Registrations for 2026 coming soon"
-    url: ""
+    btnText: "Registrations for 2025 coming soon"
+    url: "#course-variants"
   cta2Button:
     icon: book
     btnText: "Learn More"
