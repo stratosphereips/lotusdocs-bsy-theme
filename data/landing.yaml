@@ -126,7 +126,7 @@ classVariants:
         requirements: Completion of the course
         certificate: "Certificate of Completion from Stratosphere Laboratory"
         access_fee: "Free"
-        learn_more_url: /docs/requirements/free_tier_mooc
+        learn_more_url: /docs/class-variants/free-tier/
         register_url: https://www.eventbrite.com/e/970324044337
         regBtnIcon: public
       
@@ -136,8 +136,8 @@ classVariants:
         requirements: "Assignments & final exam"
         certificate: "Microcertificate issued by CTU"
         access_fee: "Paid"
-        learn_more_url: /docs/requirements/professional_tier_mooc
-        register_url: https://www.eventbrite.com/e/970324044337
+        learn_more_url: /docs/class-variants/professional-tier/
+        register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
         regBtnIcon: how_to_reg
       
       - title: CTU Students
@@ -146,7 +146,7 @@ classVariants:
         requirements: "Assignments & final exam"
         certificate: "6 ECTS credits"
         access_fee: "Included for students of CTU in Prague"
-        learn_more_url: /docs/requirements/ctustudents
+        learn_more_url: /docs/class-variants/ctu-students/
         register_url:  https://www.kos.cvut.cz/
         regBtnIcon: school
 
