@@ -44,12 +44,12 @@
         }
     }
     .tier-comparison .features-row {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
   }
 
   .tier-comparison .features {
-    background-color: #ffffff;
+    background-color: $white;
     border: 1px solid #e0e0e0;
     border-radius: 0.75rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -79,7 +79,6 @@
 
   .tier-comparison .features .description {
     font-size: 0.95rem;
-    color: #000000;
     margin-bottom: 1rem;
     text-align: justify;
   }
@@ -93,11 +92,6 @@
   .tier-comparison .features ul li {
     margin-bottom: 0.75rem;
     font-size: 0.95rem;
-    color: #555555;
-  }
-
-  .tier-comparison .features ul li strong {
-    color: #222222;
   }
 
   .tier-comparison .features .card-footer {
@@ -128,4 +122,15 @@
   }
 .bg-colored{
     background-color:$light-bg-blue;
+}
+
+.features-box{
+    flex: 3;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.description-box{
+    flex: 2;
+    min-height: 5rem
 }

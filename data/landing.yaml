@@ -122,33 +122,53 @@ classVariants:
     #   regBtnUrl: https://www.eventbrite.com/e/970324044337
       - title: Free Tier
         description: "Full access to all course lectures and the local cyber range (run on the student’s own computer). This tier is open to anyone who registers. Participants get access to live tutorial streams, support materials, and the course communication platform. The free version does not include weekly assignments or a final exam. Upon completion, students receive a **Certificate of Completion** from the Stratosphere Laboratory."
-        cyberrange: "Self-hosted Cyber Range"
-        requirements: Completion of the course
-        certificate: "Certificate of Completion from Stratosphere Laboratory"
         access_fee: "Free"
         learn_more_url: /docs/class-variants/free-tier/
         register_url: https://www.eventbrite.com/e/970324044337
         regBtnIcon: public
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
       
       - title: Professional Tier
         description: "Full access to all course lectures and the cloud-based cyber range. Available to anyone who registers through Eventbrite. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper learning experience and a recognized credential. Graduates receive a **Certificate issued by the Czech Technical University in Prague**."
-        cyberrange: "Cloud Cyber Range"
-        requirements: "Assignments & final exam"
-        certificate: "Microcertificate issued by CTU"
         access_fee: "Paid"
         learn_more_url: /docs/class-variants/professional-tier/
         register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
         regBtnIcon: how_to_reg
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
+        extra:
+          - "Cloud-based cyber range"
+          - "Weekly hands-on assignments"
+          - "Final exam"
+          - "Certificate issued by the Czech Technical University in Prague"
       
       - title: CTU Students
         description: "Full access to all course lectures and the cloud-based cyber range. **Available to students** enrolled in undergraduate or graduate programs at the Czech Technical University in Prague. Includes weekly hands-on assignments, tutorials, and a final exam as part of an accredited university course. Upon successful completion, students get **6 ECTS credits**."
-        cyberrange: "Cloud Cyber Range"
-        requirements: "Assignments & final exam"
-        certificate: "6 ECTS credits"
         access_fee: "Included for students of CTU in Prague"
         learn_more_url: /docs/class-variants/ctu-students/
         register_url:  https://www.kos.cvut.cz/
         regBtnIcon: school
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
+        extra:
+          - "Cloud-based cyber range"
+          - "Weekly hands-on assignments"
+          - "Final exam"
+          - "Winter break bonus assignment"
+          - "6 ECTS credits"
 
 peopleGrid:
   enable: true
