@@ -1,0 +1,131 @@
+//
+// class_variants.scss
+//
+.wrap-space-around{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .modality_header{
+        text-align: center;
+        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+    }
+    
+    .custom-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center align the button content on smaller screens */
+        padding: 0.75em 1em; /* Adjust padding for smaller screens */
+        font-size: 1em; /* Adjust button font size for smaller screens */
+    }
+
+    .custom-btn .material-icons {
+        margin-right: 0.25em;
+        font-size: 1.2em; /* Adjust icon size for better visibility */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .custom-btn {
+            width: 100%; /* Make buttons full-width on mobile devices */
+            margin-bottom: 0.5em; /* Add some margin to the bottom of buttons */
+        }
+
+        .modality_header {
+            font-size: 1.1em; /* Slightly smaller text for headers on mobile */
+        }
+
+        .container {
+            padding: 0 15px; /* Reduce padding on mobile */
+        }
+
+        .row {
+            margin: 0; /* Remove margin on mobile */
+        }
+    }
+    .tier-comparison .features-row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .tier-comparison .features {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .tier-comparison .features:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
+  }
+
+  .tier-comparison .features .card-body {
+    padding: 1.75rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tier-comparison .features .modality_header {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tier-comparison .features .description {
+    font-size: 0.95rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+
+  .tier-comparison .features ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: auto;
+  }
+
+  .tier-comparison .features ul li {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    color: #555555;
+  }
+
+  .tier-comparison .features ul li strong {
+    color: #222222;
+  }
+
+  .tier-comparison .features .card-footer {
+    padding: 1rem 1.75rem 1.5rem;
+    border-top: 1px solid #eee;
+  }
+
+  .tier-comparison .features .btn-group-vertical,
+  .tier-comparison .features .btn-group-vertical .btn {
+    width: 100%;
+  }
+
+  .tier-comparison .features .btn-group-vertical .btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.925rem;
+  }
+
+  .tier-comparison .features .material-icons {
+    font-size: 1.1rem;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+  }
+
+  @media (max-width: 576px) {
+    .tier-comparison .features {
+      margin-bottom: 1.5rem;
+    }
+  }
+.bg-colored{
+    background-color:$light-bg-blue;
+}
