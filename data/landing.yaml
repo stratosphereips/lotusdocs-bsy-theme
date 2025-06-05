@@ -36,8 +36,8 @@ hero:
   info: From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
   info2: This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
   ctaButton:
-    icon: update
-    btnText: "Registrations for 2025 coming soon"
+    icon: rocket_launch
+    btnText: "Register now"
     url: "#course-variants"
   cta2Button:
     icon: book
@@ -98,28 +98,6 @@ classVariants:
   subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To participate in the course students have to be either enrolled in the university study programme or register for the online version of the course.
 
   items:
-    # - title: B4M36BSY & BE4M36BSY
-    #   icon: school
-    #   description: "Registration in the full version of the course is open to any student enrolled in any undergraduate or graduate programme of the Czech Technical University in Prague. Students registered in the full-scale course are required to pass practical assginments and a final exam. The full-scale course is accredited for **6 ECTS credits**."
-    #   reqBtnIcon: explore
-    #   reqBtnText: "Requirements"
-    #   reqBtnUrl: /docs/requirements/ctustudents
-
-    #   regBtnIcon: school
-    #   regBtnText: "KOS Registration"
-    #   regBtnUrl: https://www.kos.cvut.cz/
-
-    # - title: Free online course
-    #   icon: public
-    #   description: "Free version of the course is available to anyone upon registration in Eventbrite. Students registered in the free online version of the course will have access to the live streams of the tutorials, support material and course communication platform. Upon finishing the course, students will get the **Certificate of Completion**"
-
-    #   reqBtnIcon: explore
-    #   reqBtnText: "Requirements"
-    #   reqBtnUrl: /docs/requirements/onlinecourse/
-
-    #   regBtnIcon: public
-    #   regBtnText: "Free Registration"
-    #   regBtnUrl: https://www.eventbrite.com/e/970324044337
       - title: Free Tier
         description: "Full access to all course lectures and the local cyber range (run on the student’s own computer). This tier is open to anyone who registers. Participants get access to live tutorial streams, support materials, and the course communication platform. The free version does not include weekly assignments or a final exam. Upon completion, students receive a **Certificate of Completion** from the Stratosphere Laboratory."
         access_fee: "Free"
@@ -138,7 +116,7 @@ classVariants:
         access_fee: "Paid"
         learn_more_url: /docs/class-variants/professional-tier/
         register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
-        regBtnIcon: how_to_reg
+        regBtnIcon: workspace_premium
         base_features:
           - "Access to all course lectures"
           - "Access to the local cyber range"
