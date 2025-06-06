@@ -1,9 +1,11 @@
 /* Template Name: LotusLabs Docs
-   Author: Colin Wilson
-   E-mail: colin.wilson@proton.me
+   Template Author: Colin Wilson
+   Template E-mail: colin.wilson@proton.me
    Created: October 2022
    Version: 1.0.0
    File Description: Main CSS file of the Landing Page template
+   Adapted by: Ondrej Lukas
+   Contact: ondrej.lukas@aic.fel.cvut.cz
 */
 
 //Custom Font Variables
@@ -46,6 +48,9 @@ $font-family-monospace:  "{{ .Site.Params.mono_font | default "SFMono-Regular, M
 @import "custom/pages/features";
 @import "custom/pages/helper";
 @import "custom/pages/hero";
+@import "custom/pages/comments";
+@import "custom/pages/people_grid";
+@import "custom/pages/class_variants";
 // {{ if ($.Scratch.Get "image_compare_enabled") }}@import "custom/pages/image-compare-viewer";{{ end }}
 
 // @import "custom/pages/simplebar";

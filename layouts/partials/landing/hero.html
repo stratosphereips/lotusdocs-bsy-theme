@@ -95,11 +95,14 @@
                         {{ with .title }}{{ . }}{{ end }}
                     </h4>
                     {{ with .subtitle }}
-                    <p class="para-desc text-muted mb-0">{{ . | markdownify }}</p>
+                    <p class="para-desc text-muted mb-0 text-justify">{{ . | markdownify }}</p>
                     {{ end }}
-			{{ with .info }}
-                    		<p class="text-muted mb-0 mt-3">{{ . | markdownify }}</p>
-                    	{{ end }}
+			        {{ with .info }}
+                        <p class="para-desc text-muted mb-0 mt-2 text-justify">{{ . | markdownify }}</p>
+                    {{ end }}
+                    {{ with .info2 }}
+                        <p class="para-desc text-muted mb-5 mt-2 text-justify">{{ . | markdownify }}</p>
+                    {{ end }}
 
                     <div class="mt-2">
                         {{ with .ctaButton }}

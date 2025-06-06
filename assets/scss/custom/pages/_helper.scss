@@ -80,7 +80,7 @@
     }
 
     .para-desc {
-        font-size: 18px;
+        font-size: 1.1em;
     }
 }
 
@@ -109,7 +109,7 @@
 }
 
 .para-desc {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .mt-100 {
@@ -530,4 +530,9 @@ span.icon-bg {
 /* NavBar menu icon spacing */
 span.menu-icon {
     margin: 0px 5px 3px -2px;
+}
+
+/* Text justify */
+.text-justify {
+    text-align: justify;
 }

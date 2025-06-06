@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "Introduction to Security"
-  subtitle: "The Introduction to Security Masterclass is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. "
+  subtitle: "The Introduction to Security course is a **14-week, free**, intense **hands-on** course to foster knowledge about penetration testing and advanced cyber defenses. "
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "illustration_class_rotated.png" # filename of your hero image (including file extension)
@@ -33,26 +33,22 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  info: |
-    From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders.
-    The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
-    
-    This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
-  
+  info: From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
+  info2: This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
   ctaButton:
-    icon: update
-    btnText: "Registrations for 2026 coming soon"
-    url: ""
+    icon: rocket_launch
+    btnText: "Register now"
+    url: "#course-variants"
   cta2Button:
     icon: book
     btnText: "Learn More"
     url: "docs/about/"
   
   statistics:
-    year: 8
+    year: 9
     yearTextSuffix: "successful year of the course"
-    students: 400
-    studentsTextSuffix: "graduates of the course from the Open Informatics programme"
+    students: 700
+    studentsTextSuffix: "graduates of the course from the Open Informatics programme and the online course"
 
 
 
@@ -62,7 +58,7 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: What does the class offer?
+  title: What does the course offer?
   subtitle:
     This hands-on course will walk students through all the stages of a classical penetration testing assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems. Online students will be able to try, test, and reproduce what is taught in class thanks to our free software cyber range.
     This one-semester (14-week) course is free, online, and open to anyone in the world. 
@@ -74,7 +70,7 @@ featureGrid:
  
     - title: From Zero to Hero
       icon: trending_up
-      description: The class is open to anyone who is tech-savvy and familiar with command line knowledge. Previous security experience is not a requirement. You will learn networking, security fundamentals, pentesting, and defensive strategies. In one semester, you will exploit vulnerabilities, attack web pages, and use machine learning for defense.
+      description: The course is open to anyone who is tech-savvy and familiar with command line knowledge. Previous security experience is not a requirement. You will learn networking, security fundamentals, pentesting, and defensive strategies. In one semester, you will exploit vulnerabilities, attack web pages, and use machine learning for defense.
 
     - title: Certificate of Completion
       icon: workspace_premium
@@ -99,33 +95,59 @@ classVariants:
   template: class variants
 
   title: Course variants
-  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To participate in the course students have to be either enrolled in the university study programme or register for free, online version of the course.
+  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To participate in the course students have to be either enrolled in the university study programme or register for the online version of the course.
 
   items:
-    - title: B4M36BSY & BE4M36BSY
-      icon: school
-      description: "Registration in the full version of the course is open to any student enrolled in any undergraduate or graduate programme of the Czech Technical University in Prague. Students registered in the full-scale course are required to pass practical assginments and a final exam. The full-scale course is accredited for **6 ECTS credits**."
-      reqBtnIcon: explore
-      reqBtnText: "Requirements"
-      reqBtnUrl: /docs/requirements/ctustudents
+      - title: Free Tier
+        description: "Full access to all course lectures and the local cyber range (run on the student’s own computer). This tier is open to anyone who registers. Participants get access to live tutorial streams, support materials, and the course communication platform. The free version does not include weekly assignments or a final exam. Upon completion, students receive a **Certificate of Completion** from the Stratosphere Laboratory."
+        access_fee: "Free"
+        learn_more_url: /docs/class-variants/free-tier/
+        register_url: https://www.eventbrite.com/e/introduction-to-security-2025-tickets-1387253796449
+        regBtnIcon: public
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
+      
+      - title: Professional Tier
+        description: "Full access to all course lectures and the cloud-based cyber range. Available to anyone who registers through Eventbrite. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper learning experience and a recognized credential. Graduates receive a **EU Recognized Official Certificate** issued by the Czech Technical University in Prague."
+        access_fee: "Paid"
+        learn_more_url: /docs/class-variants/professional-tier/
+        register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
+        regBtnIcon: workspace_premium
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
+        extra:
+          - "Cloud-based cyber range"
+          - "Weekly hands-on assignments"
+          - "Final exam"
+          - "Certificate issued by the Czech Technical University in Prague"
+      
+      - title: CTU Students
+        description: "Full access to all course lectures and the cloud-based cyber range. **Available to students** enrolled in undergraduate or graduate programs at the Czech Technical University in Prague. Includes weekly hands-on assignments, tutorials, and a final exam as part of an accredited university course. Upon successful completion, students get **6 ECTS credits**."
+        access_fee: "Included for students of CTU in Prague"
+        learn_more_url: /docs/class-variants/ctu-students/
+        register_url:  https://www.kos.cvut.cz/
+        regBtnIcon: school
+        base_features:
+          - "Access to all course lectures"
+          - "Access to the local cyber range"
+          - "Access to live tutorial streams"
+          - "Access to support materials"
+          - "Access to the course communication platform"
+        extra:
+          - "Cloud-based cyber range"
+          - "Weekly hands-on assignments"
+          - "Final exam"
+          - "Winter break bonus assignment"
+          - "6 ECTS credits"
 
-      regBtnIcon: school
-      regBtnText: "KOS Registration"
-      regBtnUrl: https://www.kos.cvut.cz/
-
-    - title: Free online course
-      icon: public
-      description: "Free version of the course is available to anyone upon registration in Eventbrite. Students registered in the free online version of the course will have access to the live streams of the tutorials, support material and course communication platform. Upon finishing the course, students will get the **Certificate of Completion**"
-
-      reqBtnIcon: explore
-      reqBtnText: "Requirements"
-      reqBtnUrl: /docs/requirements/onlinecourse/
-
-      regBtnIcon: public
-      regBtnText: "Free Registration"
-      regBtnUrl: https://www.eventbrite.com/e/970324044337
-
-# peopleGrid
 peopleGrid:
   enable: true
   weight: 25
@@ -190,7 +212,7 @@ peopleGrid:
         filename: "lukas_forst.jpeg"
 
     - title: Martin Řepa
-      description: Martin is an ethical hacker and an alumni of the Introduction to Security class. He has extensive experience as both a software and security engineer. Martin secured third place in a National Cybersecurity competition and identified several critical vulnerabilities in public bug bounty programs. In 2024, he and Lukas co-founded Recon Wave. In his free time, Martin likes to do bouldering and play chess.
+      description: Martin is an ethical hacker and an alumni of the Introduction to Security course. He has extensive experience as both a software and security engineer. Martin secured third place in a National Cybersecurity competition and identified several critical vulnerabilities in public bug bounty programs. In 2024, he and Lukas co-founded Recon Wave. In his free time, Martin likes to do bouldering and play chess.
       contacts:
         - webpage: https://reconwave.com/
         - github: HappyStoic 
@@ -227,15 +249,15 @@ comments:
     - review: "Very unique take on the course, both lectures and exams. Very well prepared homework with sometime unclear assignments, but this was compensated by quick communication with the teachers, who were always willing to explain uncertainties."
     - review: The content is great, the materials are very good, especially the labs, the teachers are enthusiastic and helpful.
     - review: "A wonderful and most importantly very hands-on look at the field of computer security. I very much appreciate the infrastructure and the opportunity provided to try out virtually every aspect discussed in the lectures."
-    - review: Even if this course is not required for you, I highly recommend it. I highly appreaciate the interactivity in the lectures and excercises (though there's not difference between these two int this course). Each week there is a new task, while it was sometimes time-consuming, I found them truly engaging, and I never felt that I was missing some tool or knowledge to be able to complete the task - and if I did, I could ask, because we could have instant communications with all of the teachers.
-
+    - review: "Even if this course is not required for you, I highly recommend it. I highly appreaciate the interactivity in the lectures and excercises (though there's not difference between these two int this course). Each week there is a new task, while it was sometimes time-consuming, I found them truly engaging, and I never felt that I was missing some tool or knowledge to be able to complete the task - and if I did, I could ask, because we could have instant communications with all of the teachers."
+    - review: "I am always very critical when taking a course, and this is the first time I can't find any flaws or critical errors. From the instructors to the infrastructure they rely on, everything is absolutely incredible."
 # sponsors:
 sponsorGrid:
   enable: true
   weight: 30
   template: sponsor grid
   title:  Organizations
-  subtitle: This class is taught by the Stratosphere Laboratory, AI Center, Department of Computer Science, Faculty of Electrical Engineering, Czech Technical University in Prague. The class is part of the Open Informatics Master program.
+  subtitle: This course is taught by the Stratosphere Laboratory, AI Center, Department of Computer Science, Faculty of Electrical Engineering, Czech Technical University in Prague. The course is part of the Open Informatics Master program.
 
   sponsors:
     - title: Czech Technical University in Prague

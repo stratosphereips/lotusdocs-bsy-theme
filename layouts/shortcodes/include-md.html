@@ -1,0 +1,6 @@
+{{- $file := .Get "file" -}}
+{{ with resources.Get $file }}
+  {{ .Content | markdownify }}
+{{ else }}
+  **Warning:** Could not find file: `{{ $file }}` |alert
+{{ end }}

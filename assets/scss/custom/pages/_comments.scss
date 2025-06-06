@@ -1,0 +1,34 @@
+//
+// comments.scss
+//
+ .grid-container {
+    position: relative; /* Masonry needs this to position items */
+}
+
+.grid-item {
+    width: 30%; /* Set the width of the grid items */
+    margin-bottom: 20px; /* Gutter between grid items */
+    background-color: $light-bg-blue;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.grid-sizer {
+    width: 30%; /* This should match the grid-item width */
+}
+
+.features {
+    height: auto;
+}
+
+
+p.italic {
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .grid-item {
+        width: 100%; /* Single column on mobile */
+    }
+}

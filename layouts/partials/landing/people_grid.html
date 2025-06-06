@@ -1,24 +1,6 @@
 {{ $sectionTitle := .Scratch.Get "sectionTitle" }}
 {{ with (index .Site.Data.landing $sectionTitle) }}
 
-<style>
-    .hover_icon:hover {
-        color: #0392ba;
-    }
-
-    .personal_photo {
-        height: 5rem !important;
-    }
-
-    .socials_icon {
-        height: 1.5rem !important;
-        width: 1.5rem !important;
-    }
-    .icon_padding-025{
-        padding-right: 0.25em;
-    }
-</style>
-
 {{ if eq .enable true }}
 <!-- Features Start -->
 <section id="{{ $sectionTitle }}">
@@ -123,7 +105,7 @@
                                     {{ end }}
                                 </div>
 
-                                <p class="text-muted para mt-2">{{ .description | markdownify }}
+                                <p class="text-muted para mt-2 text-justify">{{ .description | markdownify }}
                                 </p>
                             </div>
                         </div>
