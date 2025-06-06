@@ -74,8 +74,8 @@ featureGrid:
 
     - title: Certificate of Completion
       icon: workspace_premium
-      description: Upon completing the course, students will receive a certificate of completion from the Stratosphere Laboratory. Please note that this certificate is not an official Czech Technical University in Prague certificate, but it confirms your successful course completion.
-
+      description: Upon completing the course, students will receive a certificate of completion the Czech Technical University in Prague (Pro Tier). This is an official certificate valid across the EU. Successful completion of the Free Tier version is acknowledged by Stratosphere Laboratory certificate.
+    
     - title: Red Teaming
       icon: destruction
       description: Attack-focused classes will give you real-world experience on how attacks work, how to make them happen, and how hard and fun is to exploit a remote computer. This is essential knowledge to learn to defend better.
