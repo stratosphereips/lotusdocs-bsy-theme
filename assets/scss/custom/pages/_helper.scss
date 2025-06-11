@@ -564,3 +564,10 @@ span.menu-icon {
         }
     }
 }
+
+// Hide on small screens (mobile)
+@media (max-width: 768px) {
+    .back-to-top {
+        display: none !important;
+    }
+}
