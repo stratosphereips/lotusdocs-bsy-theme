@@ -40,6 +40,9 @@ If so, collect and consolidate the items config from each enabled instance
         </div>
         <div class="mb-4" id="content">
             {{- block "main" . }}{{- end }}
+            <!-- Back to top -->
+            <button onclick="topFunction()" id="back-to-top" aria-label="Back to Top Button" class="back-to-top fs-5"><svg width="24" height="24"><path d="M12,10.224l-6.3,6.3L4.32,15.152,12,7.472l7.68,7.68L18.3,16.528Z" style="fill:#fff"/></svg></button>
+            <!-- Back to top -->
         </div>
             {{- partial "footer.html" . -}}
 
@@ -52,7 +55,6 @@ If so, collect and consolidate the items config from each enabled instance
             {{- $js := (slice $app) | resources.Concat "/js/bundle.js" }}
             <script type="text/javascript" src="{{ $js.Permalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
         {{- end }}
-
         <!-- Image Compare Viewer Config -->
         {{ if ($.Scratch.Get "image_compare_enabled") }}
         <script>

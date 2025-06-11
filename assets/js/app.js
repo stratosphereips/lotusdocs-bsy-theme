@@ -28,3 +28,25 @@ function toggleMenu() {
         isOpen.style.display = "block";
     }
 };
+
+
+// back-to-top
+var mybutton = document.getElementById("back-to-top");
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (mybutton != null) {
+        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
