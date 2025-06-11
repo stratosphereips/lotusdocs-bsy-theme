@@ -47,8 +47,8 @@ hero:
   statistics:
     year: 9
     yearTextSuffix: "successful year of the course"
-    students: 700
-    studentsTextSuffix: "graduates of the course from the Open Informatics programme and the online course"
+    students: 2000
+    studentsTextSuffix: "enrolled students since 2017"
 
 
 
