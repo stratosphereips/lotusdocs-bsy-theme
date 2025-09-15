@@ -66,8 +66,7 @@ featureGrid:
   items:
     - title: Intense & Hands-on
       icon: speed
-      description: The course is fast-paced and very practical. Each concept we teach needs to be tried to be completely understood. Every topic shown in the course is practiced and done by you to deepen your knowledge and give you experience.
- 
+      description: The course is fast-paced and highly practical. Every concept must be applied to be fully understood, and each topic is practiced hands-on to deepen your knowledge and build real experience. It also equips you with the technical skills needed to meet the requirements of the [EU’s NIS2 cybersecurity directive](https://digital-strategy.ec.europa.eu/en/policies/nis2-directive).
     - title: From Zero to Hero
       icon: trending_up
       description: The course is open to anyone who is tech-savvy and familiar with command line knowledge. Previous security experience is not a requirement. You will learn networking, security fundamentals, pentesting, and defensive strategies. In one semester, you will exploit vulnerabilities, attack web pages, and use machine learning for defense.
