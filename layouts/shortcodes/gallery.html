@@ -1,0 +1,32 @@
+<style>
+  .gallery-container {
+    column-count: 3;
+    column-gap: 1rem;
+  }
+  .gallery-item {
+    display: block;
+    margin-bottom: 1rem;
+    break-inside: avoid;
+  }
+  .gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  @media (max-width: 600px) {
+    .gallery-container {
+      column-count: 1;
+    }
+  }
+</style>
+
+<div class="gallery-container">
+  {{ $images := .Page.Resources.ByType "image" }}
+  {{ range $images }}
+    {{ $resized := .Resize "600x" }} <a href="{{ .RelPermalink }}" class="gallery-item" data-fslightbox="gallery">
+      <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+    </a>
+  {{ end }}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.0.9/index.min.js"></script>
