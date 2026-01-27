@@ -1,0 +1,10 @@
+.microcert-content figure img {
+    /* 1. Clear the old solid border so it doesn't block the effect */
+    border: none;
+
+    /* 2. Use box-shadow to create the outward fade 
+        Syntax: offset-x | offset-y | blur-radius | spread-radius | color 
+        use CTU blue for the border
+        */
+    box-shadow: 0px 0px 2px 2px #005EB8;
+}
