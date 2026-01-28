@@ -72,4 +72,9 @@ $code-block-padding-top: {{ if eq .Site.Params.docs.prism true -}}0{{ else }}1.2
 
 // Mermaid
 @import "custom/plugins/mermaid/mermaid";
+
+// CTU microcertificates
 @import "custom/microcert";
+
+// Class topic voting gallery
+@import "custom/structure/gallery";
