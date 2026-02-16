@@ -37,7 +37,7 @@ hero:
   info2: This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
   ctaButton:
     icon: rocket_launch
-    btnText: "Register now"
+    btnText: "Registration for 2026 will open soon"
     url: "#course-variants"
   cta2Button:
     icon: book
