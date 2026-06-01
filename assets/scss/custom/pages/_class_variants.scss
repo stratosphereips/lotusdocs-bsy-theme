@@ -1,144 +1,253 @@
 //
 // class_variants.scss
 //
-.wrap-space-around{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+.wrap-space-around {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    .modality_header{
-        text-align: center;
-        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
-    }
-    
-    .custom-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center; /* Center align the button content on smaller screens */
-        padding: 0.75em 1em; /* Adjust padding for smaller screens */
-        font-size: 1em; /* Adjust button font size for smaller screens */
-    }
+.modality_header {
+  text-align: center;
+  font-size: 1.2em;
+  /* Adjust font size for better readability on smaller screens */
+}
 
-    .custom-btn .material-icons {
-        margin-right: 0.25em;
-        font-size: 1.2em; /* Adjust icon size for better visibility */
-    }
+.custom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center align the button content on smaller screens */
+  padding: 0.75em 1em;
+  /* Adjust padding for smaller screens */
+  font-size: 1em;
+  /* Adjust button font size for smaller screens */
+}
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        .custom-btn {
-            width: 100%; /* Make buttons full-width on mobile devices */
-            margin-bottom: 0.5em; /* Add some margin to the bottom of buttons */
-        }
+.custom-btn .material-icons {
+  margin-right: 0.25em;
+  font-size: 1.2em;
+  /* Adjust icon size for better visibility */
+}
 
-        .modality_header {
-            font-size: 1.1em; /* Slightly smaller text for headers on mobile */
-        }
-
-        .container {
-            padding: 0 15px; /* Reduce padding on mobile */
-        }
-
-        .row {
-            margin: 0; /* Remove margin on mobile */
-        }
-        .features-box{
-        flex: 2;
-        padding-top: 1rem;
-    }
-
-    .description-box{
-        display: none;
-    }
-    }
-    .tier-comparison .features-row {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .tier-comparison .features {
-    background-color: $white;
-    border: 1px solid #e0e0e0;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-
-  .tier-comparison .features:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
-  }
-
-  .tier-comparison .features .card-body {
-    padding: 1.75rem;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .tier-comparison .features .modality_header {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .tier-comparison .features .description {
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
-    text-align: justify;
-  }
-
-  .tier-comparison .features ul {
-    padding-left: 0;
-    list-style: none;
-    margin-bottom: auto;
-  }
-
-  .tier-comparison .features ul li {
-    margin-bottom: 0.75rem;
-    font-size: 0.95rem;
-  }
-
-  .tier-comparison .features .card-footer {
-    padding: 1rem 1.75rem 1.5rem;
-    border-top: 1px solid #eee;
-  }
-
-  .tier-comparison .features .btn-group-vertical,
-  .tier-comparison .features .btn-group-vertical .btn {
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-btn {
     width: 100%;
+    /* Make buttons full-width on mobile devices */
+    margin-bottom: 0.5em;
+    /* Add some margin to the bottom of buttons */
   }
 
-  .tier-comparison .features .btn-group-vertical .btn {
-    padding: 0.6rem 1rem;
-    font-size: 0.925rem;
+  .modality_header {
+    font-size: 1.1em;
+    /* Slightly smaller text for headers on mobile */
   }
 
-  .tier-comparison .features .material-icons {
-    font-size: 1.1rem;
-    vertical-align: middle;
-    margin-right: 0.4rem;
+  .container {
+    padding: 0 15px;
+    /* Reduce padding on mobile */
   }
 
-  @media (max-width: 576px) {
-    .tier-comparison .features {
-      margin-bottom: 1.5rem;
-    }
+  .row {
+    margin: 0;
+    /* Remove margin on mobile */
   }
-.bg-colored{
-    background-color:$light-bg-blue;
-}
 
-.features-box{
-    flex: 3;
-    border-top: 1px solid #eee;
-    padding-top: 1rem;
-}
-
-.description-box{
+  .features-box {
     flex: 2;
-    min-height: 5rem
+    padding-top: 1rem;
+  }
+
+  .description-box {
+    display: none;
+  }
+}
+
+.tier-comparison .features-row {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tier-comparison .features {
+  background-color: $white;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem 0.75rem 0 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.tier-comparison .features:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.30);
+}
+
+.tier-comparison .features .card-body {
+  padding: 1.75rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tier-comparison .features .modality_header {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tier-comparison .features .description {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.tier-comparison .features ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: auto;
+}
+
+.tier-comparison .features ul li {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.tier-comparison .features .card-footer {
+  padding: 1rem 1.75rem 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.tier-comparison .features .btn-group-vertical,
+.tier-comparison .features .btn-group-vertical .btn {
+  width: 100%;
+}
+
+.tier-comparison .features .btn-group-vertical .btn {
+  padding: 0.6rem 1rem;
+  font-size: 0.925rem;
+}
+
+.tier-comparison .features .material-icons {
+  font-size: 1.1rem;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+@media (max-width: 576px) {
+  .tier-comparison .features {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.bg-colored {
+  background-color: $light-bg-blue;
+}
+
+.features-box {
+  flex: 3;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.description-box {
+  flex: 2;
+  min-height: 5rem
+}
+
+.tier-comparison .features.highlighted {
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(153, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+
+  @media (min-width: 769px) {
+    transform: scale(1.04);
+  }
+}
+
+.tier-comparison .features.highlighted:hover {
+  box-shadow: 0 18px 48px rgba(153, 0, 0, 0.32);
+
+  @media (min-width: 769px) {
+    transform: scale(1.04) translateY(-4px);
+  }
+}
+
+/* Make checkmarks inside the highlighted card darker red */
+.tier-comparison .features.highlighted .features-box span {
+  color: #990000 !important;
+}
+
+/* Style the primary CTA button in deep darker red to match */
+.tier-comparison .features.highlighted .btn-primary {
+  background-color: #990000 !important;
+  border-color: #990000 !important;
+  box-shadow: 0 4px 12px rgba(153, 0, 0, 0.22);
+  font-weight: 600;
+  color: #ffffff !important;
+
+  &:hover {
+    background-color: #730000 !important;
+    border-color: #730000 !important;
+    box-shadow: 0 6px 16px rgba(153, 0, 0, 0.35);
+  }
+}
+
+/* Style the outline Learn More button in matching red */
+.tier-comparison .features.highlighted .btn-outline-primary {
+  color: #990000 !important;
+  border-color: #990000 !important;
+  background-color: transparent !important;
+  font-weight: 600;
+
+  &:hover {
+    color: #ffffff !important;
+    background-color: #990000 !important;
+    border-color: #990000 !important;
+  }
+}
+
+/* Style the checkmarks in the CTU Students card with same blue as the buttons */
+.tier-comparison .features.ctu-students .features-box span {
+  color: $primary !important;
+}
+
+/* Color-code card titles to match their card's theme color */
+.tier-comparison .features.highlighted .modality_header {
+  color: #990000 !important;
+  font-weight: 700;
+}
+
+.tier-comparison .features.ctu-students .modality_header {
+  color: $primary !important;
+  font-weight: 700;
+}
+
+/* Style the Free Tier card buttons in neutral gray to coordinate with its clean gray layout */
+.tier-comparison .features.free-tier .btn-primary {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.15);
+  font-weight: 600;
+  color: #ffffff !important;
+
+  &:hover {
+    background-color: #5a6268 !important;
+    border-color: #545b62 !important;
+  }
+}
+
+.tier-comparison .features.free-tier .btn-outline-primary {
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+  background-color: transparent !important;
+  font-weight: 600;
+
+  &:hover {
+    color: #ffffff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+  }
 }

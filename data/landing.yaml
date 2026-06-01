@@ -111,6 +111,7 @@ classVariants:
           - "Access to the course communication platform"
       
       - title: Professional Tier
+        highlight: true
         description: "Full access to all course lectures and the cloud-based cyber range. Available to anyone who registers through Eventbrite. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper learning experience and a recognized credential. Graduates receive a **EU Recognized Official Certificate** issued by the Czech Technical University in Prague."
         access_fee: "Paid"
         learn_more_url: /docs/class-variants/professional-tier/
