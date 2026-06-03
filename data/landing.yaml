@@ -105,7 +105,7 @@ classVariants:
         regBtnIcon: public
         base_features:
           - "Access to all course lectures"
-          - "Access to the local cyber range"
+          - "Access to the local self-hosted cyber range"
           - "Access to live tutorial streams"
           - "Access to support materials"
           - "Access to the course communication platform"
@@ -119,14 +119,15 @@ classVariants:
         regBtnIcon: workspace_premium
         base_features:
           - "Access to all course lectures"
-          - "Access to the local cyber range"
+          - "Access to the local self-hosted cyber range"
           - "Access to live tutorial streams"
           - "Access to support materials"
           - "Access to the course communication platform"
         extra:
-          - "Cloud-based cyber range"
+          - "Fully managed cloud infrastructure"
           - "Weekly hands-on assignments"
-          - "Final exam"
+          - "Final practical exam"
+          - "Mentoring session with the teaching team"
           - "Certificate issued by the Czech Technical University in Prague"
       
       - title: CTU Students
@@ -137,15 +138,14 @@ classVariants:
         regBtnIcon: school
         base_features:
           - "Access to all course lectures"
-          - "Access to the local cyber range"
+          - "Access to the local self-hosted cyber range"
           - "Access to live tutorial streams"
           - "Access to support materials"
           - "Access to the course communication platform"
         extra:
-          - "Cloud-based cyber range"
+          - "Fully managed cloud infrastructure"
           - "Weekly hands-on assignments"
           - "Final exam"
-          - "Winter break bonus assignment"
           - "6 ECTS credits"
 
 peopleGrid:
