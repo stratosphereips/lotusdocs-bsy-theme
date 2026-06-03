@@ -209,8 +209,9 @@
   }
 }
 
-/* Style the checkmarks in the CTU Students card with same blue as the buttons */
-.tier-comparison .features.ctu-students .features-box span {
+/* Style the checkmarks in the CTU Students and Free Tier cards with same blue as the buttons */
+.tier-comparison .features.ctu-students .features-box span,
+.tier-comparison .features.free-tier .features-box span {
   color: $primary !important;
 }
 
@@ -220,34 +221,8 @@
   font-weight: 700;
 }
 
-.tier-comparison .features.ctu-students .modality_header {
+.tier-comparison .features.ctu-students .modality_header,
+.tier-comparison .features.free-tier .modality_header {
   color: $primary !important;
   font-weight: 700;
-}
-
-/* Style the Free Tier card buttons in neutral gray to coordinate with its clean gray layout */
-.tier-comparison .features.free-tier .btn-primary {
-  background-color: #6c757d !important;
-  border-color: #6c757d !important;
-  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.15);
-  font-weight: 600;
-  color: #ffffff !important;
-
-  &:hover {
-    background-color: #5a6268 !important;
-    border-color: #545b62 !important;
-  }
-}
-
-.tier-comparison .features.free-tier .btn-outline-primary {
-  color: #6c757d !important;
-  border-color: #6c757d !important;
-  background-color: transparent !important;
-  font-weight: 600;
-
-  &:hover {
-    color: #ffffff !important;
-    background-color: #6c757d !important;
-    border-color: #6c757d !important;
-  }
 }
