@@ -45,9 +45,9 @@ hero:
     url: "docs/about/"
   
   statistics:
-    year: 9
+    year: 10
     yearTextSuffix: "successful year of the course"
-    students: 2000
+    students: 2300
     studentsTextSuffix: "enrolled students since 2017"
 
 
