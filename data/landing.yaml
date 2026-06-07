@@ -112,7 +112,7 @@ classVariants:
       
       - title: Professional Tier
         highlight: true
-        description: "Full access to all course lectures and the cloud-based cyber range. Available to anyone who registers through Eventbrite. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper learning experience and a recognized credential. Graduates receive a **EU Recognized Official Certificate** issued by the Czech Technical University in Prague."
+        description: "Full access to all course lectures and access to our advanced cloud-based cyber range. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper professional work-ready learning experience and a recognized EU certification. Graduates receive a **EU Recognized Official Certificate** issued by the Czech Technical University in Prague."
         access_fee: "Paid"
         learn_more_url: /docs/class-variants/professional-tier/
         register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
