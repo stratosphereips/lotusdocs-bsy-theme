@@ -33,7 +33,7 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  info: From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. The online version is free and gives you access to live classes, recordings, and a cyber range to practice what is taught during the lessons.
+  info: From basic security principles to advanced attacks, you will learn to attack in an isolated cyber range and learn how to detect and stop advanced intruders. The online version can be taken free with access to live classes, recordings, and a cyber range to practice, or you can pay to have access to advanced cloud infrastructure, more practice, an official EU certificate and 1-to-1 mentorship with the teachers.
   info2: This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://fel.cvut.cz/en).
   ctaButton:
     icon: rocket_launch
