@@ -73,7 +73,7 @@ featureGrid:
 
     - title: Certificate of Completion
       icon: workspace_premium
-      description: Upon completing the course, students will receive a certificate of completion the Czech Technical University in Prague (Pro Tier). This is an official certificate valid across the EU. Successful completion of the Free Tier version is acknowledged by Stratosphere Laboratory certificate.
+      description: Upon successfully completing the course, Professional-tier students receive an official, EU-recognized Certificate issued by the Czech Technical University in Prague. Free-tier students who finish are provided with a Certificate of Completion from the Stratosphere Laboratory.
     
     - title: Red Teaming
       icon: destruction
