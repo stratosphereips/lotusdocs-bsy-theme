@@ -5,12 +5,13 @@
     .sponsor_logo {
         height: 5rem !important;
     }
-    .wrap-space-around{
+
+    .wrap-space-around {
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .mb-1-5{
+    .mb-1-5 {
         margin-bottom: 1.5em;
     }
 </style>
@@ -26,7 +27,7 @@
                     <h4 class="title fw-bold mb-4">{{ . }}</h4>
                     {{ end }}
                     {{ with .subtitle }}
-                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ . | markdownify }}</p>
+                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
                 </div>
             </div><!--end col-->
@@ -37,9 +38,10 @@
                 <div class="row wrap-space-around">
                     {{ range .sponsors }}
                     <div class="col-md-4 mb-1-5">
-                        <a href="{{ .url }}" alt="{{ .title }}"
-                        rel="noopener noreferrer" target="_blank">
+                        {{ $resolved_url := partial "utils/resolve-link.html" .url }}
+                        <a href="{{ $resolved_url }}" alt="{{ .title }}" rel="noopener noreferrer" target="_blank">
                             <div class="sponsor_logo">
+                                {{ $scale := .scale | default 1.0 }}
                                 {{ with .image }}
                                 {{ $path := .path | default "images" }}
                                 {{ $filename := .filename }}
@@ -49,7 +51,8 @@
 
 
                                 {{ with $image := resources.Get $path }}
-                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex">
+                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex"
+                                    style="transform: scale({{ $scale }});">
                                 {{ end }}
                                 {{ end }}
                                 {{ end }}
