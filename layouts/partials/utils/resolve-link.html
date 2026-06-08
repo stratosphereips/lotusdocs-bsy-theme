@@ -1,0 +1,17 @@
+{{- $destination := . -}}
+{{- if strings.HasPrefix $destination "param:" -}}
+  {{- $rawParam := strings.TrimPrefix "param:" $destination -}}
+  {{- $parts := split $rawParam "/" -}}
+  {{- $paramName := index $parts 0 -}}
+  {{- $paramVal := site.Param $paramName -}}
+  {{- if $paramVal -}}
+    {{- $suffixParts := after 1 $parts -}}
+    {{- $suffix := delimit $suffixParts "/" -}}
+    {{- if $suffix -}}
+      {{- $destination = printf "%s/%s" (strings.TrimSuffix "/" $paramVal) $suffix -}}
+    {{- else -}}
+      {{- $destination = $paramVal -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $destination -}}

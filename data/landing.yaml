@@ -34,7 +34,7 @@ hero:
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   info: From basic security principles to advanced attacks, learn to detect and stop real-world intruders. Join for free to access live classes, recordings and local cyber range, or select the pro tier for advanced cloud infrastructure, hands-on assignments, an official EU certificate and 1-to-1 mentorship with the teachers.
-  info2: This course is part of the [Open Informatics Master](https://oi.fel.cvut.cz/en/master-program), taught at the [Czech Technical University in Prague](https://fel.cvut.cz/en). Classes are taught by members of the [Stratosphere Laboratory](https://www.stratosphereips.org/) in the [AI Center](https://www.aic.fel.cvut.cz/), [Faculty of Electrical Engineering](https://fel.cvut.cz/en), [Czech Technical University in Prague](https://www.cvut.cz/en).
+  info2: This course is part of the [Open Informatics Master](param:shared_links.oi_master), taught at the [Czech Technical University in Prague](param:shared_links.ctu). Classes are taught by members of the [Stratosphere Laboratory](param:shared_links.stratosphere) in the [AI Center](param:shared_links.aic), [Faculty of Electrical Engineering](param:shared_links.fee), [Czech Technical University in Prague](param:shared_links.ctu).
   ctaButton:
     icon: rocket_launch
     btnText: "Registration for 2026 will open soon"
@@ -94,14 +94,14 @@ classVariants:
   template: class variants
 
   title: Course variants
-  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](https://fel.cvut.cz/en). To participate in the course students have to be either enrolled in the university study programme or register for the online version of the course.
+  subtitle: This course is originates from a **B4M36BSY Introduction to Security** course of [Czech Technical University in Prague](param:shared_links.ctu). To participate in the course students have to be either enrolled in the university study programme or register for the online version of the course.
 
   items:
       - title: Free Tier
         description: "Full access to all course lectures and the local cyber range (run on the student’s own computer). This tier is open to anyone who registers. Participants get access to live tutorial streams, support materials, and the course communication platform. The free version does not include weekly assignments or a final exam. Upon completion, students receive a **Certificate of Completion** from the Stratosphere Laboratory."
         access_fee: "Free"
         learn_more_url: /docs/class-variants/free-tier/
-        register_url: https://www.eventbrite.com/e/introduction-to-security-2025-tickets-1387253796449
+        register_url: param:shared_links.eventbrite
         regBtnIcon: public
         base_features:
           - "Access to all course lectures"
@@ -115,7 +115,7 @@ classVariants:
         description: "Full access to all course lectures and access to our advanced cloud-based cyber range. Students get access to live tutorial streams, support materials, the course communication platform, and participate in weekly hands-on tutorials and a final exam. This tier is designed for those seeking deeper professional work-ready learning experience and a recognized EU certification. Graduates receive a **EU Recognized Official Certificate** issued by the Czech Technical University in Prague."
         access_fee: "Paid"
         learn_more_url: /docs/class-variants/professional-tier/
-        register_url: https://czv.cvut.cz/en/ee3d4173-b241-486a-ad58-61d7339e5dbf-introduction-to-computer-security/
+        register_url: param:shared_links.lifelong_learning_portal
         regBtnIcon: workspace_premium
         base_features:
           - "Access to all course lectures"
@@ -134,7 +134,7 @@ classVariants:
         description: "Full access to all course lectures and the cloud-based cyber range. **Available to students** enrolled in undergraduate or graduate programs at the Czech Technical University in Prague. Includes weekly hands-on assignments, tutorials, and a final exam as part of an accredited university course. Upon successful completion, students get **6 ECTS credits**."
         access_fee: "Included for students of CTU in Prague"
         learn_more_url: /docs/class-variants/ctu-students/
-        register_url:  https://www.kos.cvut.cz/
+        register_url: param:shared_links.kos
         regBtnIcon: school
         base_features:
           - "Access to all course lectures"

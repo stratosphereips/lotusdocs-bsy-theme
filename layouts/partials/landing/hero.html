@@ -95,18 +95,19 @@
                         {{ with .title }}{{ . }}{{ end }}
                     </h4>
                     {{ with .subtitle }}
-                    <p class="para-desc text-muted mb-0 text-justify">{{ . | markdownify }}</p>
+                    <p class="para-desc text-muted mb-0 text-justify">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
 			        {{ with .info }}
-                        <p class="para-desc text-muted mb-0 mt-2 text-justify">{{ . | markdownify }}</p>
+                        <p class="para-desc text-muted mb-0 mt-2 text-justify">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
                     {{ with .info2 }}
-                        <p class="para-desc text-muted mb-5 mt-2 text-justify">{{ . | markdownify }}</p>
+                        <p class="para-desc text-muted mb-5 mt-2 text-justify">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
 
                     <div class="mt-2">
                         {{ with .ctaButton }}
-                            <a href="{{ .url }}" class="btn btn-lg btn-primary me-2 mt-2">
+                            {{ $resolved_url := partial "utils/resolve-link.html" .url }}
+                            <a href="{{ $resolved_url }}" class="btn btn-lg btn-primary me-2 mt-2">
                                 {{ with .icon }}
                                     <span class="material-icons align-middle">{{ . }}</span>
                                 {{ end }}
@@ -116,12 +117,13 @@
                             </a>
                         {{ end }}
                         {{ with .cta2Button }}
-                        <a href="{{ relLangURL .url }}" class="btn btn-lg btn-outline-primary mt-2">
+                        {{ $resolved_url2 := partial "utils/resolve-link.html" .url }}
+                        <a href="{{ relLangURL $resolved_url2 }}" class="btn btn-lg btn-outline-primary mt-2">
                             {{ with .icon }}
                                 <span class="material-icons align-middle">{{ . }}</span>
                             {{ end }}
                             {{ with .btnText }}
-                                {{ . }}
+                                    {{ . }}
                             {{ end }}
                         </a>
                         {{ end }}

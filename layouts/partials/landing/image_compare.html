@@ -10,7 +10,7 @@
                         <h4 class="title fw-bold mb-4">{{ . }}</h4>
                     {{ end }}
                     {{ with .subtitle }}
-                        <p class="text-muted para-desc mb-0 mx-auto">{{ . | markdownify }}</p>
+                        <p class="text-muted para-desc mb-0 mx-auto">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
                 </div>
             </div><!--end col-->

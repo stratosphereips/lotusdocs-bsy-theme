@@ -25,7 +25,7 @@
                     <h4 class="title fw-bold mb-4">{{ . }}</h4>
                     {{ end }}
                     {{ with .subtitle }}
-                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ . | markdownify }}</p>
+                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
                 </div>
             </div><!--end col-->
@@ -40,7 +40,7 @@
                     {{ $color := index $colors (mod $index 6) }}
                     <div class="grid-item" style="background-color: {{ $color | safeCSS }};">
                         <div class="features p-3">
-                            <p class="text-muted para mb-0 italic text-justify">{{ .review | markdownify }}</p>
+                            <p class="text-muted para mb-0 italic text-justify">{{ $.RenderString (dict "display" "inline") .review }}</p>
                         </div>
                     </div>
                     {{ end }}

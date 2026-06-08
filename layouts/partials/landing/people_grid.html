@@ -12,7 +12,7 @@
                     <h4 class="title fw-bold mb-4">{{ . }}</h4>
                     {{ end }}
                     {{ with .subtitle }}
-                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ . | markdownify }}</p>
+                    <p class="text-muted para-desc mb-4 pb-2 mx-auto">{{ $.RenderString (dict "display" "inline") . }}</p>
                     {{ end }}
                 </div>
             </div><!--end col-->
@@ -51,7 +51,8 @@
                                     <!-- For linkedin use icon  need to edit the link-->
                                     {{ if eq $key "linkedin" }}
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
-                                    <a href="https://{{ $key }}.com/in/{{ $value }}" alt="{{ $key }}"
+                                    {{ $resolved_url := partial "utils/resolve-link.html" $value }}
+                                    <a href="https://{{ $key }}.com/in/{{ $resolved_url }}" alt="{{ $key }}"
                                         rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
@@ -66,7 +67,8 @@
                                         <i class="material-icons align-top">contact_page</i>
                                     </a> -->
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
-                                    <a href="{{ $value | absURL }}" alt="{{ $key }}"
+                                    {{ $resolved_url := partial "utils/resolve-link.html" $value }}
+                                    <a href="{{ $resolved_url | absURL }}" alt="{{ $key }}"
                                         rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
@@ -78,7 +80,8 @@
                                     <!-- scholar  -->
                                     {{ if eq $key "scholar" }}
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
-                                    <a href="https://{{ $key }}.google.com/citations?user={{ $value }}" alt="{{ $key }}"
+                                    {{ $resolved_url := partial "utils/resolve-link.html" $value }}
+                                    <a href="https://{{ $key }}.google.com/citations?user={{ $resolved_url }}" alt="{{ $key }}"
                                         rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
@@ -89,7 +92,8 @@
                                     {{ else }}
                                     <!-- Other socials -->
                                     {{ $path := printf "images/social/%s.%s" $key "svg" }}
-                                    <a href="https://{{ $key }}.com/{{ $value }}" alt="{{ $key }}"
+                                    {{ $resolved_url := partial "utils/resolve-link.html" $value }}
+                                    <a href="https://{{ $key }}.com/{{ $resolved_url }}" alt="{{ $key }}"
                                         rel="noopener noreferrer" target="_blank" class="icon_padding-025">
                                         <div class="btn btn-icon btn-landing border-0 socials_icon">
                                             {{ with resources.Get $path }}
@@ -105,8 +109,7 @@
                                     {{ end }}
                                 </div>
 
-                                <p class="text-muted para mt-2 text-justify">{{ .description | markdownify }}
-                                </p>
+                                <p class="text-muted para mt-2 text-justify">{{ $.RenderString (dict "display" "inline") .description }}</p>
                             </div>
                         </div>
                     </div>
