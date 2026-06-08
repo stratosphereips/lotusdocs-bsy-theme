@@ -60,7 +60,7 @@ featureGrid:
 
   title: What does the course offer?
   subtitle:
-    This hands-on course walks students through all the stages of a penetration testing assessment together with the stages of a defense blue-team assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems. Online students will be able to try, test, and reproduce at home what is taught in class thanks to our free software cyber range..
+    This hands-on course walks students through all the stages of a penetration testing assessment together with the stages of a defense blue-team assessment. Through alternating attack and defense classes, students will learn to attack and also defend real systems. Online students will be able to try, test, and reproduce at home what is taught in class thanks to our free software cyber range.
     This one-semester (14-week) course is free, online, and open to anyone in the world. 
 
   items:
@@ -169,7 +169,7 @@ peopleGrid:
         filename: "sebastian_garcia.jpg"
     
     - title: Maria Rigaki
-      description: Maria is a PhD student from Greece. She is focused on adversarial applications of machine learning in cybersecurity. She spent many years in the industry as a software developer and systems architect. Maria has plenty of experience designing and integrating complex systems in telecommunication and emergency response. In her spare time, she enjoys hacking, playing music, and playing chess.
+      description: Maria is a post-doc researcher from Greece. She is focused on adversarial applications of machine learning in cybersecurity. She spent many years in the industry as a software developer and systems architect. Maria has plenty of experience designing and integrating complex systems in telecommunication and emergency response. In her spare time, she enjoys hacking, playing music, and playing chess.
       contacts:
         - webpage: https://mariarigaki.github.io/
         - github: mariarigaki
