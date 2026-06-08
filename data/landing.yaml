@@ -289,3 +289,10 @@ sponsorGrid:
       image:
         path: "images/sponsors"
         filename: "stratosphere.svg"
+
+    - title: Recon Wave
+      url: https://reconwave.com/
+      image:
+        path: "images/sponsors"
+        filename: "recon_wave.svg"
+      scale: 0.75
