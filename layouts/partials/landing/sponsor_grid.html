@@ -5,12 +5,13 @@
     .sponsor_logo {
         height: 5rem !important;
     }
-    .wrap-space-around{
+
+    .wrap-space-around {
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .mb-1-5{
+    .mb-1-5 {
         margin-bottom: 1.5em;
     }
 </style>
@@ -37,9 +38,9 @@
                 <div class="row wrap-space-around">
                     {{ range .sponsors }}
                     <div class="col-md-4 mb-1-5">
-                        <a href="{{ .url }}" alt="{{ .title }}"
-                        rel="noopener noreferrer" target="_blank">
+                        <a href="{{ .url }}" alt="{{ .title }}" rel="noopener noreferrer" target="_blank">
                             <div class="sponsor_logo">
+                                {{ $scale := .scale | default 1.0 }}
                                 {{ with .image }}
                                 {{ $path := .path | default "images" }}
                                 {{ $filename := .filename }}
@@ -49,7 +50,8 @@
 
 
                                 {{ with $image := resources.Get $path }}
-                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex">
+                                <img src="{{ .RelPermalink }}" height="100%" alt="{{ $alt }}" class="d-flex"
+                                    style="transform: scale({{ $scale }});">
                                 {{ end }}
                                 {{ end }}
                                 {{ end }}
