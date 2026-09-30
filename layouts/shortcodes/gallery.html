@@ -1,10 +1,18 @@
+{{ $year := .Get "year" }}
+{{ $images := .Page.Resources.ByType "image" }}
+{{ with $year }}
+{{ $images = $images.Match (printf "%s/*" .) }}
+{{ end }}
+{{ if $images }}
+{{ $group := printf "gallery%s" (cond (ne $year "") (printf "-%s" $year) "") }}
 <div class="gallery-container">
-    {{ $images := .Page.Resources.ByType "image" }}
     {{ range $images }}
-    {{ $resized := .Resize "600x" }} <a href="{{ .RelPermalink }}" class="gallery-item" data-fslightbox="gallery">
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+    {{ $resized := .Resize "600x" }} <a href="{{ .RelPermalink }}" class="gallery-item" data-fslightbox="{{ $group }}">
+        <img src="{{ $resized.RelPermalink }}" alt="Postcard vote" loading="lazy">
     </a>
     {{ end }}
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.0.9/index.min.js"></script>
+{{ else }}
+<p><em>No postcards yet — check back after the deadline.</em></p>
+{{ end }}
